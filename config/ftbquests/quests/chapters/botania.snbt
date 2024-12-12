@@ -1,0 +1,1192 @@
+{
+	autofocus_id: "1EB766B3CBBACFE4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "4D07BFB6C667AD1A"
+	icon: "botania:lexicon"
+	id: "7B2353530BEF3DA2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "botania:lexicon"
+			id: "72D2B3A7AE4D8457"
+			rewards: [{
+				id: "52F8BA005E8D17F4"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "Livro Guia"
+			tasks: [{
+				id: "78B8DD94B21B2B2A"
+				title: "Botania"
+				type: "checkmark"
+			}]
+			x: -3.125d
+			y: 0.0d
+		}
+		{
+			description: [
+				"  Você irá encontrar uma variedade de novas flores enquanto explora, que podem ser usadas em crafts de itens mágicos."
+				""
+				"  Alternativamente, usar um &aFloral Fertilizer&r irá criar algumas dessas flores nas proximidades."
+			]
+			id: "5BEDC19C6A8DB3DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3540B05600B078A1"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "645997664A6CF13F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botania:mystical_flowers)"
+					}
+				}
+				title: "Mystical Flower"
+				type: "item"
+			}]
+			title: "Mystical Flowers"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BEDC19C6A8DB3DC"]
+			description: [
+				"  Utilizada para criar a Flores Funcionais."
+				""
+				"  Coloque água (botão direito com um balde ou dropar ele sobre o apotecário), adicione (drop) as pétalas corretas e por último uma semente, para criar uma nova flor."
+			]
+			id: "607404EC39E5988D"
+			size: 1.0d
+			tasks: [{
+				id: "0AEFBFE3208E591A"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["607404EC39E5988D"]
+			description: [
+				"  Essencial para a progressão dentro do mod, a &bPure Daisy&r purifica os blocos adjacentes (até 8 por vez). "
+				""
+				"  O processo deve demorar, aproximadamente, um minutinho."
+			]
+			id: "25EAECB9BBD96586"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "565D3EEBB68B7112"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1D4F15A5F7A7613C"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25EAECB9BBD96586"]
+			id: "21D94A8849E00510"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				id: "512C612E199C0F91"
+				item: { Count: 16, id: "botania:livingrock" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25EAECB9BBD96586"]
+			id: "7A03B6DA4FC6E892"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				id: "302A1493114A60F3"
+				item: { Count: 16, id: "botania:livingwood_log" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70459D0EEB664516"]
+			description: ["  Utilizada para linkar dois blocos. Enquanto no &abind-mode&r, shift + botão direito em uma &bflor&r para selecionar ela, depois repita para um &bmana spreader&r, isso irá conecta-los"]
+			id: "0735D7275C274778"
+			size: 1.0d
+			tasks: [{
+				id: "39E5319FB8CFAAA6"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["607404EC39E5988D"]
+			description: [
+				"  A &6Endoflame&r gera mana ao dropar itens combustiveis (madeira, carvão, blaze rods...) sobre ela."
+				""
+				"  A &bHydroangeas&r gera mana ao absorver fontes de água próximas a ela (3x3 e na mesma altitude). Apesar de gerar mais mana, ela decai ao longo do tempo, precisando ser plantada novamente."
+			]
+			id: "70459D0EEB664516"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "483E1681CE226A76"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1760E920A256DA75"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:endoflame"
+							}
+							{
+								Count: 1b
+								id: "botania:hydroangeas"
+							}
+						]
+					}
+				}
+				title: "Fogo ou Água"
+				type: "item"
+			}]
+			title: "Gerando Mana"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70459D0EEB664516"]
+			description: ["  Direciona a mana de ponto A para um ponto B. &7Ex.: das flores para uma mana pool."]
+			id: "7798F2D575234BA3"
+			size: 1.0d
+			tasks: [{
+				id: "3C0B2E3C2FFB2F6A"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0735D7275C274778"
+				"7798F2D575234BA3"
+			]
+			description: ["  Em termos simples, uma bateria de mana."]
+			id: "1EB766B3CBBACFE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38DE6CDFC12DBCBF"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "77589A2676F1717B"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1EB766B3CBBACFE4"]
+			description: [
+				"  Utilizado para criar runas (materiais de craft). Requer mana para funcionar!"
+				""
+				"  &dCriando runas:&r adicione os materiais, a mana necessária e por último adicione a livingrock. "
+				""
+				"  Clique com a Wand of the Forest para finalizar o craft."
+			]
+			id: "2622CCAABF2EDAA5"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "05BA30A9CBD3FB45"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1EB766B3CBBACFE4"]
+			description: ["  Ao colocar esse bloco sob um &bmana pool&r, permite a transmutação de novos itens."]
+			id: "72BB8BD2B9405B23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "675ED6CA957084E8"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "59A911A239CE5F7D"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72BB8BD2B9405B23"]
+			description: ["  Mesma função do bloco anterior, mas possibilita receitas diferentes."]
+			id: "06A2BC2417952862"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4997D129871D174B"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4692A0ABFD05008B"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1EB766B3CBBACFE4"]
+			description: ["  Mana portátil. Provê mana para itens no seu inventário."]
+			id: "36690D89317E0FE5"
+			size: 1.0d
+			subtitle: "Pra viagem"
+			tasks: [{
+				id: "2CD7F520BD8E1B4E"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["36690D89317E0FE5"]
+			description: ["  Atua da mesma forma que o tablet, porém pode ser equipado no slot de trinkets (Curio)."]
+			id: "5B1D99DDCD7444CA"
+			size: 1.0d
+			tasks: [{
+				id: "4CDE841BA124E34A"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B1D99DDCD7444CA"]
+			description: ["  Armazena uma quantia maior de mana."]
+			id: "60DFE5EF8F2C6B4D"
+			size: 1.0d
+			tasks: [{
+				id: "0B9E7C546A152E7F"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["36690D89317E0FE5"]
+			description: ["  Gera mana para os itens no seu inventário."]
+			id: "379442C5AB63BD7A"
+			size: 1.0d
+			tasks: [{
+				id: "6037D8B165E7CD07"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["379442C5AB63BD7A"]
+			description: ["  Gera &omais&r mana para os itens no seu inventário."]
+			id: "4DED32DF700BFC32"
+			size: 1.0d
+			tasks: [{
+				id: "46DC74109644B56B"
+				item: "botania:aura_ring_greater"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2622CCAABF2EDAA5"]
+			id: "1071E1D4194C6F60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "633EC0D1B8599A31"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "037DC301C08FEA2C"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1EB766B3CBBACFE4"]
+			description: [
+				"  Obtidos ao jogar suas versões \"normais\" numa mana pool. "
+				""
+				"  &7Verifique as receitas no JEI.&r"
+			]
+			id: "0B6F49DCF3517C6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F27257B6D9AE311"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "4DEB1C6CA5C02FFF"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "35BE376180442336"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "5B702B661FF3B85F"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+				{
+					id: "799DBC8387EDA922"
+					item: "botania:mana_powder"
+					type: "item"
+				}
+			]
+			title: "Mana items"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2622CCAABF2EDAA5"]
+			id: "00703B9BD4BF15CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39E7C42781368E86"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "49B93D47189B9E91"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "4BB1D3FBD4BA37C4"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "2C0C74DB79DC4E40"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "2E539B9319E748F9"
+					item: "botania:rune_air"
+					type: "item"
+				}
+			]
+			title: "Elementos"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2622CCAABF2EDAA5"]
+			id: "3A170CE3426CFE27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30C4B26111126181"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "1C6D7C8A0193F9B1"
+					item: "botania:rune_spring"
+					type: "item"
+				}
+				{
+					id: "2CEF9F604F2D0F48"
+					item: "botania:rune_summer"
+					type: "item"
+				}
+				{
+					id: "62FA1B9EC5639CD0"
+					item: "botania:rune_autumn"
+					type: "item"
+				}
+				{
+					id: "1B3E0B6A77674647"
+					item: "botania:rune_winter"
+					type: "item"
+				}
+			]
+			title: "Estações"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2622CCAABF2EDAA5"]
+			id: "6B857AD83DDE9573"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13C1A52AC73E6876"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "4D4F22AAF54162B8"
+					item: "botania:rune_lust"
+					type: "item"
+				}
+				{
+					id: "15B926585567BA68"
+					item: "botania:rune_gluttony"
+					type: "item"
+				}
+				{
+					id: "32E8DA97386042CC"
+					item: "botania:rune_greed"
+					type: "item"
+				}
+				{
+					id: "44EC96C0062C685B"
+					item: "botania:rune_sloth"
+					title: "Any #botania:runes"
+					type: "item"
+				}
+				{
+					id: "4358881C31AB2A9D"
+					item: "botania:rune_wrath"
+					type: "item"
+				}
+				{
+					id: "058109E81F6E26B1"
+					item: "botania:rune_envy"
+					type: "item"
+				}
+				{
+					id: "14E2404627775273"
+					item: "botania:rune_pride"
+					type: "item"
+				}
+			]
+			title: "Pecados"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B6F49DCF3517C6F"]
+			description: [
+				"  Esse altar é utilizado para criar Terrasteel, recurso muito importante na progressão do mod. &7Você pode conferir como criar o altar utilizando o Lexica Botania.&r"
+				""
+				"  Requer uma &oGRANDE&r quantia de mana para funcionar."
+			]
+			icon: "botania:terra_plate"
+			id: "4BC6E23ECF5F52D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B8C2BF5050F70EB"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "02630C7281FE348F"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "414B497FF47A9A05"
+					item: { Count: 5, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7F2ABF1DAB430DAB"
+					item: { Count: 4, id: "minecraft:lapis_block" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4BC6E23ECF5F52D1"]
+			id: "240462E89717F226"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10A5989541CCB0A6"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0089EC4C157DEA5E"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["240462E89717F226"]
+			description: [
+				"  Esse portal é utilizado para a obtenção de recursos, ao jogar itens através dele."
+				""
+				"  Configura no &aLexica Botania&r qual a configuração do portal."
+				"  "
+				"  Após montar o portal corretamente e carregar as mana pools, acione-o ao clicar com a Wand of the Forest no seu núcleo."
+			]
+			icon: "botania:natura_pylon"
+			id: "535A27F2B375B07F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E077D27EC90EEA1"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "782D7036EE2B16DF"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0DD1724451772BEB"
+					item: { Count: 3, id: "botania:glimmering_livingwood_log" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6F38A4952E469087"
+					item: { Count: 8, id: "botania:livingwood_log" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "53CD49E98732A15B"
+					item: { Count: 2, id: "botania:natura_pylon" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6CD549CAE54C4BFA"
+					item: { Count: 2, id: "botania:mana_pool" }
+					type: "item"
+				}
+			]
+			title: "Elven Gateway"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["240462E89717F226"]
+			description: [
+				"  Confira no Lexica Botania a posição* correta dos Pylons e certifique-se de que o Beacon está ativo."
+				""
+				"  &7*Existe uma opção de criar uma \"estrutura fantasma\" usando o livro, indicando no mundo onde colocar os blocos;"
+			]
+			icon: "botania:gaia_pylon"
+			id: "331E3C39AF94B09A"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "458CA8269500D953"
+					item: { Count: 4, id: "botania:gaia_pylon" }
+					type: "item"
+				}
+				{
+					id: "39390D5814A2D666"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "Gaia Ritual"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["331E3C39AF94B09A"]
+			description: [
+				"  Shift + botão direito no beacon enquanto segura um &aterrasteel ingot&r irá ativar o ritual. "
+				""
+				"  É melhor estar bem preparado para essa luta. Lembre-se de que a dificuldade aumenta com o número de players próximos."
+			]
+			id: "077CC899A1CC4901"
+			rewards: [
+				{
+					id: "4EFF62261BC8CF9D"
+					item: {
+						Count: 1
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D83D9B63B6D8871"
+					table_id: 6535714654712916141L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				advancement: "botania:main/gaia_guardian_kill"
+				criterion: ""
+				id: "5C4ABA55B8F6BD1C"
+				title: "Invoque e elimine o Espírito de Gaia"
+				type: "advancement"
+			}]
+			title: "&6Gaia Spirit"
+			x: 5.625d
+			y: 5.0d
+		}
+		{
+			dependencies: ["535A27F2B375B07F"]
+			id: "053A7161E2DCDE5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A2B2A5540EDDE22"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2D33E39F08686760"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B6F49DCF3517C6F"]
+			icon: {
+				Count: 1
+				id: "botania:manasteel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B9D28CA74CECD2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66E7BCC5A300EB4A"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "0B709E0B43D486E8"
+					item: {
+						Count: 1
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E95D2ACD950A802"
+					item: {
+						Count: 1
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29CEF75B8763B19C"
+					item: {
+						Count: 1
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "133ABB06E11717EE"
+					item: {
+						Count: 1
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bManasteel armor"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["240462E89717F226"]
+			icon: {
+				Count: 1
+				id: "botania:terrasteel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1F44361FA269C617"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "285FB4478460E803"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "090D64ED2D8B9E80"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56780488B0C3AC44"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B4387E8D18CB0F9"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ED723A3B69E1E91"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aTerrasteel armor"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["053A7161E2DCDE5C"]
+			icon: {
+				Count: 1
+				id: "botania:elementium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5CD8829ED9AB6701"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E3DCC215F23C7AE"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "7376042E5019D032"
+					item: {
+						Count: 1
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F6C9307FB3279CD"
+					item: {
+						Count: 1
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "509C1EF8FC9B99AA"
+					item: {
+						Count: 1
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26F7EE811BEC23A5"
+					item: {
+						Count: 1
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&dElementium armor"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["535A27F2B375B07F"]
+			id: "2081B9DCED40E15D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1147335D21504292"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "36A998975E078834"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["077CC899A1CC4901"]
+			description: ["  Ritual nível 2: Use um &dgaia spirit ingot&r ao invés de um terrasteel ingot"]
+			id: "6CCD0A5AF0033AB1"
+			rewards: [
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "6296E500ACD92DBF"
+					table_id: 1360621381254826890L
+					title: "Simply Swords Weapon"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EC04FD183982689"
+					table_id: 1541069228600389254L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				advancement: "botania:challenge/gaia_guardian_hardmode"
+				criterion: ""
+				id: "07F9181485579E03"
+				title: "Invoque e elimine o Segundo Nível do Espírito de Gaia"
+				type: "advancement"
+			}]
+			title: "&cGaia Guardian"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6CCD0A5AF0033AB1"]
+			id: "4CA1407D2F920B07"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "56A985D102255340"
+				item: "botania:dice"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CA1407D2F920B07"]
+			id: "73D037ECD077B891"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79D19843C744AC17"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "192D70254E3F41A2"
+				item: "botania:king_key"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4CA1407D2F920B07"]
+			id: "19D98F216BB8DBE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69C968C3893B58C9"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "00C1D057EDE4639E"
+				item: {
+					Count: 1
+					id: "botania:odin_ring"
+					tag: {
+						baubleUUID: [I;
+							-1773696443
+							124667907
+							-1252770116
+							92105038
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4CA1407D2F920B07"]
+			id: "32FCB2305C1487B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07B4CB57F96027E8"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2CC7CD38B10AE67E"
+				item: "botania:loki_ring"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CA1407D2F920B07"]
+			id: "0E433778FF71DF1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E971DE66162DFB7"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "799958E3C2F2BFF4"
+				item: "botania:thor_ring"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CA1407D2F920B07"]
+			id: "1B5EE9F1C88926FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58447618A1B4A47E"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5991E022D3266B8A"
+				item: "botania:infinite_fruit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CA1407D2F920B07"]
+			id: "00109D50900D3DBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35B87E274B4AF2DD"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4F1324BE7F4081E4"
+				item: "botania:flugel_eye"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["240462E89717F226"]
+			id: "63C6E44E9711956A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "607888C2D03566B7"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "56E0F65EAC42A7DD"
+				item: {
+					Count: 1
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63C6E44E9711956A"]
+			description: [""]
+			id: "34630D7F8391EBFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71A54E7B7102BDA1"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "35784F68B9427B3D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:star_sword"
+								tag: {
+									Damage: 0
+									lastTriggerTime: 1866978L
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:thunder_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Estrela ou Trovão"
+				type: "item"
+			}]
+			title: "Evoluindo a Terra Blade"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6CCD0A5AF0033AB1"]
+			id: "3B278BD6A1FF6FCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21EBC1A465C733DE"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6496B564E542237C"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+	]
+	title: "&2Botania"
+}

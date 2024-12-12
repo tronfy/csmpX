@@ -1,0 +1,359 @@
+{
+	autofocus_id: "32781E75EBAA6871"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_deeper"
+	group: "58C520FF084BE885"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "2B95C83896AE1EEA"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1176631293FB4148"]
+			description: ["  Elimine o Warden para obter seu coração e sua carapaça."]
+			id: "581DAAA2D1A99BFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75982C7CEAFB8655"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_shrieker"
+				id: "34F82675150E3188"
+				title: "Mate um Warden"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Warden"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["581DAAA2D1A99BFC"]
+			id: "538715A74A0A99E7"
+			size: 1.0d
+			tasks: [{
+				id: "5DC6A651741674DF"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["581DAAA2D1A99BFC"]
+			id: "293E4B76AB6ABAAB"
+			tasks: [{
+				id: "328462BAE4C604F2"
+				item: "deeperdarker:warden_carapace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["293E4B76AB6ABAAB"]
+			id: "2D8385E08B325A6F"
+			tasks: [{
+				id: "1500C2326604EEB5"
+				item: "deeperdarker:reinforced_echo_shard"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["266A66D14D223635"]
+			id: "1D84BA3A3ED6D188"
+			tasks: [{
+				id: "500C0B79FF8ED0EB"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D8385E08B325A6F"]
+			description: ["  Pode ser encontrados nos baús das Ancient Cities."]
+			id: "32781E75EBAA6871"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D369A5EDEB77441"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "65DFF60205A56C1B"
+				item: "deeperdarker:warden_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "1176631293FB4148"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FC188C0ECF60910"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				icon: "minecraft:sculk"
+				id: "5086690E348C5045"
+				structure: "minecraft:ancient_city"
+				title: "Encontre uma Ancient City"
+				type: "structure"
+			}]
+			x: -2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538715A74A0A99E7"]
+			description: [
+				"  Depois de limpar as sculks veins do portal no centro da Ancient City, use o Heart of the Deep para ativa-lo."
+				""
+				"  &7Recomendado:&f Warden Helmet (bloqueia o debuff de darkness do Warden)"
+			]
+			id: "266A66D14D223635"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "622749EF4B85712E"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:sculk_stone"
+				id: "63DDDBD16E8BE62B"
+				title: "Visite o Otherside"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["266A66D14D223635"]
+			description: ["  Visite todos os biomes do Otherside"]
+			id: "63DE324FA29D599F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "520F2B6ECEC3F935"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					biome: "deeperdarker:deeplands"
+					icon: "deeperdarker:smooth_sculk_stone"
+					id: "4E342E66D35A3BF7"
+					title: "Visite as Deeplands"
+					type: "biome"
+				}
+				{
+					biome: "deeperdarker:echoing_forest"
+					icon: "deeperdarker:echo_leaves"
+					id: "159ABCE72C6172D7"
+					title: "Visite a Echoing Forest"
+					type: "biome"
+				}
+				{
+					biome: "deeperdarker:overcast_columns"
+					icon: "deeperdarker:gloomy_sculk"
+					id: "7146FADCAB2FA54B"
+					title: "Visite as Overcast Columns"
+					type: "biome"
+				}
+				{
+					biome: "deeperdarker:blooming_caverns"
+					icon: "deeperdarker:blooming_sculk_stone"
+					id: "24EAAB858772569C"
+					title: "Visite as Blooming Caverns"
+					type: "biome"
+				}
+			]
+			title: "&dDeep Tourist Destinations"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["266A66D14D223635"]
+			icon: "deeperdarker:sculk_grime_bricks"
+			id: "0681D17B86A206FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "117C5C3F7543F195"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: "deeperdarker:sculk_grime_bricks"
+				id: "03B10B188721BFCD"
+				structure: "deeperdarker:ancient_temple"
+				title: "Encontre o Ancient Temple"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32781E75EBAA6871"]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "33E3428C9F347FB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12E8152381C65FC7"
+				table_id: 1541069228600389254L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6A7B18DB0BA0672F"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "293AEE2C4DF12649"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42B1F381DDE17FAE"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38898D570DA015A1"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ABD4B20D1E3E701"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arsenal de Sculk"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32781E75EBAA6871"]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4607487BD9F0DA29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51898A7413C7F833"
+				table_id: 1541069228600389254L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2A3769E03C46BF2A"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43677AF29E5E148E"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C80AD7F6BC718C0"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4395CE7A4A3B3AB8"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura de Sculk"
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+	title: "&9The Otherside"
+}

@@ -1,0 +1,427 @@
+{
+	autofocus_id: "770B530F59BB1397"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "58C520FF084BE885"
+	icon: "minecraft:end_portal_frame"
+	id: "595C9667FC844FF4"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:end_portal_frame"
+			id: "770B530F59BB1397"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:ender_eye"
+				id: "5F6AE1B39932479C"
+				title: "Visite o END"
+				type: "dimension"
+			}]
+			title: "END"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50679D9A1824003A\" } }"]
+			id: "46326A03E15BF664"
+			size: 1.0d
+			tasks: [{
+				id: "611AFC8BEED13045"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DEEEFBD84F7BFCE\" } }"]
+			id: "591205A37ABBF3DF"
+			size: 1.0d
+			tasks: [{
+				id: "672FD051AF9383A9"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3836316A3427DEAC\" } }"]
+			id: "7AC3EB8945E61C5B"
+			size: 1.0d
+			tasks: [{
+				id: "04606203279AFA3E"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"33EE595A3DA0F2A8\" } }"]
+			id: "09F55D44E9FA5B95"
+			size: 1.0d
+			tasks: [{
+				id: "0500FD451F265592"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"407B58D76A2209B9\" } }"]
+			id: "0A0BA87680597A40"
+			size: 1.0d
+			tasks: [{
+				id: "0204CCF1867509BD"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49E656C4744E7A8C\" } }"]
+			id: "5D0EED84AEBA704C"
+			size: 1.0d
+			tasks: [{
+				id: "4CAD036B26099DF2"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0310A687AE8E294A\" } }"]
+			id: "2D9F75737549C33E"
+			size: 1.0d
+			tasks: [{
+				id: "1DB565715473F60A"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"729C6C0DAD1D98C9\" } }"]
+			id: "5000D607918E032D"
+			size: 1.0d
+			tasks: [{
+				id: "7A66FC9C96844191"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"077CC899A1CC4901\" } }"]
+			id: "151656B4B86CFC53"
+			size: 1.0d
+			tasks: [{
+				id: "43FAA88D68609B97"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7086989728F47890"
+			rewards: [{
+				id: "058D312A3C6943B2"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "096DF9E308E358F8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Guardian Eye"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44C35BE09FEB7779\" } }"]
+			id: "476AD2E13092015F"
+			size: 1.0d
+			tasks: [{
+				id: "68C311D1A71B9DED"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B0CEA6EFAA38F69\" } }"]
+			icon: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F97C5C370437A02"
+			size: 1.0d
+			tasks: [{
+				id: "0B07AF760A385457"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wither Eye"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			description: ["  Obtido através de craft"]
+			id: "40A2AB7B3C0165EF"
+			size: 1.0d
+			tasks: [{
+				id: "4AC34760F169114B"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"325477ECB82D689A\" } }"]
+			id: "2F008329B476C129"
+			size: 1.0d
+			tasks: [{
+				id: "2F851EB725D0766B"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"615C1BDFC3099E9E\" } }"]
+			id: "3290DC5F98A43EBA"
+			size: 1.0d
+			tasks: [{
+				id: "0C0F41FBAF55A912"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			description: ["{ \"text\": \"  Clique para ir à quest relacionada.  \", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F88A664AC3CE72F\" } }"]
+			id: "1B6D1C7CE85821CC"
+			size: 1.0d
+			tasks: [{
+				id: "13A4103F1F8A93D2"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["770B530F59BB1397"]
+			id: "4043EC6121596565"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64D3AE341DEB64A4"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: "minecraft:purpur_block"
+				id: "20A9A27A2B7DC2FF"
+				structure: "minecraft:end_city"
+				title: "Encontre uma End City"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4043EC6121596565"]
+			id: "3679C53DB613CC65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C9D96179838D7D5"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4645B43A9D29AEFE"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4043EC6121596565"]
+			id: "68EF4D8257C92416"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FEE20D6B3CA4BFD"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3BE072E792E4843F"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["770B530F59BB1397"]
+			icon: "minecraft:dragon_egg"
+			id: "373E9E5D733E58FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "562ECDA7CA8B864C"
+					table_id: 1360621381254826890L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52F2084672406815"
+					table_id: 6535714654712916141L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "1A27AE1FF0B32FF0"
+				title: "Mate o &dEnder Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "&5The End"
+}

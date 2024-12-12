@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "numismatics"
+	group: "60D2C736AE87EFC0"
+	icon: "numismatics:vendor"
+	id: "3C652EAA57D90AE0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"  Adicione o item que deseja vender ou comprar, o preço e aguarde! "
+				""
+				"  Lembre de manter suas lojas estocadas!! Sem produto, sem dinheiro."
+				""
+				"  Se houver um cartão no vendor, irá depositar os lucros direto para sua conta, ao invés de manter no seu inventário"
+			]
+			id: "7134A3ACB336285A"
+			subtitle: "Lojas!"
+			tasks: [{
+				id: "4835B10070F8D815"
+				item: "numismatics:vendor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: ["  Maneira de acessar a sua conta bancária."]
+			id: "1C44CB71ADF006CF"
+			subtitle: "Caixa Eletrônico"
+			tasks: [{
+				id: "7ECE4EC9F66AD506"
+				item: "numismatics:bank_terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C44CB71ADF006CF"]
+			description: [
+				"  Útil para fazer compras. Clicar com o cartão em um vendor irá remover dinheiro da sua conta diretamente &7(se você tiver, claro)&r. "
+				""
+				"  Não é mais necessário andar com moedas nos bolsos!"
+			]
+			id: "5503D740A598A291"
+			subtitle: "No débito"
+			tasks: [{
+				id: "5E7DDFBF8D1FD303"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(numismatics:cards)"
+					}
+				}
+				title: "Qualquer Cartão"
+				type: "item"
+			}]
+			title: "Cards"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7134A3ACB336285A"]
+			description: [
+				"  Depois de linkado a um player, pode ser adicionado ao &6Vendor&r para garantir acesso ao mesmo."
+				""
+				"  Útil se você quer montar uma loja em conjunto com alguém."
+			]
+			id: "3B9E8BD6788B64D5"
+			subtitle: "Parceiro de negócios"
+			tasks: [{
+				id: "6A0FAD0734F72BA1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(numismatics:id_cards)"
+					}
+				}
+				title: "Qualquer Cartão de ID"
+				type: "item"
+			}]
+			title: "ID Cards"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["  Após receber um pagamento (configurável) emite um pulso de redstone."]
+			id: "37FBE423E1DF07A1"
+			subtitle: "Catracas?"
+			tasks: [{
+				id: "5EF3D0A5ACE6126B"
+				item: "numismatics:andesite_depositor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+	]
+	title: "&dNumismatics"
+}

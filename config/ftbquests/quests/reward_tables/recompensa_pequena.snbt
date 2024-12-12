@@ -1,0 +1,9 @@
+{
+	icon: "numismatics:spur"
+	id: "7AE083EF95D34D77"
+	loot_size: 1
+	order_index: 1
+	rewards: [{ count: 12, item: "numismatics:spur", random_bonus: 4, weight: 2.0f }]
+	title: "Recompensa pequena"
+	use_title: true
+}

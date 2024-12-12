@@ -1,0 +1,396 @@
+{
+	autofocus_id: "259A1B3D4B97164D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simply_swords"
+	group: "58C520FF084BE885"
+	icon: "simplyswords:runic_tablet"
+	id: "41CFDBD4B5A6A575"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["31ABEA764D842717"]
+			id: "76F27461662781EE"
+			tasks: [{
+				id: "514BF4A874E4EA4B"
+				item: {
+					Count: 1
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76F27461662781EE"]
+			id: "6C3A973103CA5037"
+			tasks: [{
+				id: "14284586F76CA5C3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:righteous_relic"
+								tag: {
+									Damage: 0
+									nether_power: "socket_empty"
+									runic_power: "no_socket"
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:tainted_relic"
+								tag: {
+									Damage: 0
+									nether_power: "no_socket"
+									runic_power: "no_socket"
+								}
+							}
+						]
+					}
+				}
+				title: "Melhore a &oRelíquea"
+				type: "item"
+			}]
+			title: "&6Relic Awakening "
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C3A973103CA5037"]
+			id: "7B87FF758048F030"
+			tasks: [{
+				id: "338FFA3EF01B2F86"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplyswords:sunfire"
+								tag: {
+									Damage: 0
+									nether_power: "no_socket"
+									runic_power: "no_socket"
+								}
+							}
+							{
+								Count: 1b
+								id: "simplyswords:harbinger"
+								tag: {
+									Damage: 0
+									nether_power: "socket_empty"
+									runic_power: "socket_empty"
+								}
+							}
+						]
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				title: "Sunfire / Harbinger"
+				type: "item"
+			}]
+			title: "&dLuz e Trevas"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "0D74ABAC137A93B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CC718C2A7302820"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "7A812C41A7376D04"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F5D87180621D9D8"]
+			description: ["  Gemas podem ser aplicadas à armas &brúnicas&r ou &6Únicas&r, garantindo algum bonus."]
+			id: "311A59C8FDF48CFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60F4FC490B54F8A3"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "302A1B3BD8F23E1D"
+				item: {
+					Count: 1
+					id: "simplyswords:runefused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F5D87180621D9D8"]
+			description: ["  Gemas podem ser aplicadas à armas &brúnicas&r ou &6Únicas&r, garantindo algum bonus."]
+			id: "1C0FB67C4BDBE8E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "747E8B878B7FDE37"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3AEF56ED298AA4E3"
+				item: {
+					Count: 1
+					id: "simplyswords:netherfused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "5F5D87180621D9D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "327FC9378ACDA777"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "54F6DD2F02705885"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "simplyswords:runic_grimoire"
+				}
+			}
+			id: "3FB201E1404D2EF8"
+			rewards: [{
+				id: "39615F9FC9687013"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "simplyswords:runic_grimoire"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Livro Guia"
+			tasks: [{
+				id: "0C825222F5236953"
+				type: "checkmark"
+			}]
+			title: "Simply Swords"
+			x: -5.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31ABEA764D842717"]
+			id: "5A15160FB680C197"
+			tasks: [{
+				id: "51F9C60FAC44ECAD"
+				item: {
+					Count: 1
+					id: "simplyswords:enigma"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31ABEA764D842717"]
+			id: "4B5652B54496F1BA"
+			tasks: [{
+				id: "22399B86170D196C"
+				item: {
+					Count: 1
+					id: "simplyswords:decaying_relic"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F5D87180621D9D8"]
+			description: [
+				"  Enquanto explora o &eEND&r, mantenha esse item no seu inventário junto de um &dRunic Tablet&r. "
+				""
+				"  Resultados podem levar algum tempo..."
+			]
+			id: "259A1B3D4B97164D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F655649BD8FFD35"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2C0E8DB94A16E6CD"
+				item: "simplyswords:contained_remnant"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.25d
+		}
+		{
+			dependencies: [
+				"259A1B3D4B97164D"
+				"0D74ABAC137A93B8"
+			]
+			description: [
+				"  Manter esse item no seu inventário irá transforma-lo em uma de três armas (mesma chance de obter cada uma)."
+				""
+				"  &7*Você já pode sair do End."
+			]
+			id: "31ABEA764D842717"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45EE9D849D72FEC6"
+				table_id: 1541069228600389254L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "2E8585BBCA8703EF"
+				item: "simplyswords:tampered_remnant"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B5652B54496F1BA"]
+			description: [
+				"  Obtiada ao estar sob o efeito &bDarkness&r (o do Sculk) com a &eDecaying Relic&r em mãos. "
+				"  "
+				"  Baixa chance de se transformar!! Você provavelmente vai passar algum tempo nas Ancient Cities..."
+				""
+				"  Cuidado com os Wardens enquanto tenta conseguir essa arma."
+			]
+			id: "2E7AC5756F8DBD35"
+			tasks: [{
+				id: "733B654B039241BB"
+				item: {
+					Count: 1
+					id: "simplyswords:magispear"
+					tag: {
+						Damage: 0
+						nether_power: "no_socket"
+						runic_power: "no_socket"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B5652B54496F1BA"]
+			description: [
+				"  Obtida ao andar sobre um &bSculk Sensor&r com a &eDecaying Relic&r em mãos. "
+				""
+				"  Possui uma porcentagem boa de se transformar. Ainda assim, não necessariamente vai acontecer no primeiro sensor, continue tentando!"
+			]
+			id: "0C18BB82C7A2A704"
+			tasks: [{
+				id: "55A6BC653D3D24DD"
+				item: {
+					Count: 1
+					id: "simplyswords:magiblade"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D74ABAC137A93B8"]
+			id: "7B7506A305E9FB10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C74A84705488629"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "simplyswords:runic_weapon"
+				criterion: ""
+				id: "6C6FF1360614B4AA"
+				title: "Obtenha uma arma rúnica"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B5652B54496F1BA"]
+			description: ["  Obtida ao receber o &bataque sônico do Warden&r com a &eDecaying Relic&r em mãos."]
+			id: "13F835F99EF92BB2"
+			tasks: [{
+				id: "5E3C73F345DDBECC"
+				item: {
+					Count: 1
+					id: "simplyswords:magiscythe"
+					tag: {
+						Damage: 0
+						nether_power: "socket_empty"
+						runic_power: "socket_empty"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+	]
+	title: "&bSimply Swords"
+}

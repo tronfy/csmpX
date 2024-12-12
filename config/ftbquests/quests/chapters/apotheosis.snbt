@@ -1,0 +1,618 @@
+{
+	autofocus_id: "3C20318128AE4C6C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "58C520FF084BE885"
+	icon: "apotheosis:gem_dust"
+	id: "3B118D76A9D69D89"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "apotheosis:apoth_chronicle"
+				}
+			}
+			id: "3C20318128AE4C6C"
+			rewards: [{
+				id: "5423FD1E36988FAF"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "43E866D4ACF203A3"
+				title: "Apotheosis"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23F0018ABEA05EF9"]
+			description: [
+				"  Gem dust é a base para o craft de diversos itens, bem como material pra ser usado neles."
+				""
+				"  Para conseguir suas primeiras dusts, faça uma bigorna cair sobre algumas gemas (as gemas serão &cdestruídas &fe transformadas em Gem Dust)."
+			]
+			icon: "apotheosis:gem_dust"
+			id: "3F68A85578AC0F32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EFB705A0508D7CB"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "2B48FFD733612CA9"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F68A85578AC0F32"]
+			description: [
+				"  Nessa mesa você pode destruir &aitens com afixos &fpara transforma-los em &bmaterias de raridade&f. "
+				""
+				"  Você também pode usar dessa mesa para reciclar gemas em &dGem Dust &fsem precisar usar o método anterior."
+			]
+			id: "4201BA815F4AE2CF"
+			tasks: [{
+				id: "26E2E6072541138A"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46E07B26F0188979"]
+			description: ["  Reforja itens, concedendo atributos e outros efeitos."]
+			id: "6842E507F03A773A"
+			tasks: [{
+				id: "402FEC0EC145FCD1"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6842E507F03A773A"]
+			description: [
+				"  Reforja itens, concedendo atributos e outros efeitos. "
+				""
+				"  Aceita itens de raridedes maiores."
+			]
+			id: "3BA16DE368AD891C"
+			tasks: [{
+				id: "109CF831F5657079"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46E07B26F0188979"]
+			description: ["  Use gemas repetidas de mesma raridade para melhora-las para o próximo nível."]
+			id: "3F0C0802BD098A1A"
+			tasks: [
+				{
+					id: "278639BD4C711D69"
+					item: "apotheosis:gem_cutting_table"
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:affix/gem_cut"
+					criterion: ""
+					id: "41191B3693C23C8B"
+					type: "advancement"
+				}
+			]
+			title: "Melhorando gemas"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46E07B26F0188979"]
+			description: ["  Pode ser utilizada para &6melhorar&r os atributos de um item ou para &6modifica-los&r."]
+			id: "12C98C15A059E640"
+			tasks: [{
+				id: "5DDE41D5D6A4F7CE"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: ["  Podem ser encontrados em baús ou como um drop de monstros"]
+			id: "23917B03F2B81699"
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				id: "2EC97EB96FB499BE"
+				title: "Consiga um item com afixo"
+				type: "advancement"
+			}]
+			title: "Afixos"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"  Gemas garantem um bonus único ao item no qual são equipadas. Elas vem em diferentes raridades, com as mais raras garantido bônus maiores. "
+				""
+				"  Você pode encontra-las em baús ou ao eliminar monstros. Certas gemas só podem ser adquiridas em dimensões específicas! "
+				""
+				"  Para equipar uma gema, junte ela com um &bitem de afixo&r em uma &6Smithing Table&r. "
+				""
+				"  Os itens &npossuem um limite&r de gemas que podem ser alocadas, indicado pelo &nnúmero de soquetes&r nele."
+			]
+			id: "23F0018ABEA05EF9"
+			tasks: [{
+				advancement: "apotheosis:affix/gem"
+				criterion: ""
+				id: "7F13D0CC0A675B8B"
+				title: "Consiga uma Gema"
+				type: "advancement"
+			}]
+			title: "Apotheosis: Gemas"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"23917B03F2B81699"
+				"23F0018ABEA05EF9"
+			]
+			description: [
+				"  Usando uma smithing table, equipe uma gema em um item."
+				""
+				"  Gemas podem ser removidas posteriormente usando um &aSigil of Withdraw&r."
+			]
+			id: "63D464BC06B48C7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EE3DAFEC7E14851"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "apotheosis:affix/socket"
+				criterion: ""
+				id: "26BB2A148FFF4BE9"
+				title: "Equipe uma gema em um item"
+				type: "advancement"
+			}]
+			title: "Aplicando Gemas"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"  O Apotheosis, entre outras coisas, altera a modo como você encanta os itens."
+				""
+				"  Ao encantar, as estantes de livros podem garantir &btrês atributos&r para a mesa:"
+				"  - &aEterna&r: Determina o nível do encantamento."
+				"  - &cQuanta&r: Randomiza, para mais ou para menos*, o poder final do seu encantamento."
+				"  - &dArcana&r: Torna encantamentos raros mais comuns, além de, em certos marcos, garantir que você receba mais encantamentos por vez."
+				""
+				"  &7*Existe um último atributo, Rectification, que serve para tornar a randomização do valor de Quanta mais favorável.&r"
+			]
+			id: "6E8BBC58905978CD"
+			tasks: [{
+				id: "70108C6AFF450B51"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4201BA815F4AE2CF"]
+			id: "46E07B26F0188979"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49D34FB8C4C728CC"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "30411D90B4AD5AD7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "apotheosis:rarity_materials"
+					}
+				}
+				title: "Adquira qualquer material de raridade"
+				type: "item"
+			}]
+			title: "Materiais de Raridade"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E8BBC58905978CD"]
+			dependency_requirement: "one_completed"
+			description: ["  Encante um item no nível 30, o máximo possível no jogo base."]
+			id: "010755AA58958A77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D89BC8A898ED070"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "apotheosis:enchanting/30ench"
+				criterion: ""
+				id: "034DB7E32DFBB182"
+				title: "Encantamentos 101"
+				type: "advancement"
+			}]
+			title: "Vanilla Max"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["010755AA58958A77"]
+			dependency_requirement: "one_completed"
+			description: ["  Encante um item no nível 60. Para isso você vai precisar de &bSeashelfs&r e/ou &cHellshelfs&r."]
+			id: "71BA71DB3C302356"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55E5C1868A1446DC"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "apotheosis:enchanting/60ench"
+				criterion: ""
+				id: "0C3FEE1C1257137B"
+				title: "Encantamentos intermediarios"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71BA71DB3C302356"]
+			dependency_requirement: "one_completed"
+			description: ["  Encante um item no nível 80."]
+			id: "0F88A664AC3CE72F"
+			rewards: [
+				{
+					id: "1D9A8F3A7D2C5666"
+					item: {
+						Count: 1
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04F25087CD613D0E"
+					table_id: 1541069228600389254L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "apotheosis:enchanting/80ench"
+				criterion: ""
+				id: "250334B6D465544C"
+				title: "&dSculk Enchanting"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "10BF5AEC2468E9C0"
+			tasks: [{
+				id: "19698A5D23B46384"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "10DB34E4CB653E13"
+			tasks: [{
+				id: "69227B11E15B7AC2"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "330C7D7815FA0D91"
+			tasks: [{
+				id: "44D1F7DE1BA5E09E"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "64F4F1C29DC5F982"
+			tasks: [{
+				id: "1E2D12C6FA7FC133"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "3A224EE9DBE1FC90"
+			tasks: [{
+				id: "2B07F4D0E21323CC"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "54DFC5424EB8ABD1"
+			tasks: [{
+				id: "18D94DD31F5F98E6"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "05C52E14E3252B11"
+			tasks: [{
+				id: "4F90E6E09BB1C3A3"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F88A664AC3CE72F"]
+			dependency_requirement: "one_completed"
+			description: ["  Encante um item no nível 100."]
+			id: "3E86DB3799A48FA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12859DC696599874"
+				table_id: 1541069228600389254L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "apotheosis:enchanting/100ench"
+				criterion: ""
+				id: "7AAD18C4BC043F98"
+				title: "&6Max Enchanting"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "0EA764E9A28B97B3"
+			tasks: [{
+				id: "4599E9020547289C"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "2BEC9CB764AE7AB6"
+			tasks: [{
+				id: "15C7614BBB15DE57"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"  Colete um spawner usando silk touch."
+				""
+				"  Alguns itens modificam propriedades específicas do spawner. Usar um spawn egg mudará o mob do spawner."
+				""
+				"  Consulte o &eJEI&r para mais iformações."
+			]
+			id: "6B0262E9BADC5CA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6879852B196CC6DC"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "apotheosis:spawner/root"
+				criterion: ""
+				id: "374A400367626D4C"
+				title: "Mob Spawner"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["  As chances estão ao seu favor..."]
+			id: "166F736BE8EF8E7E"
+			tasks: [{
+				id: "4E70361C1D18D311"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:rectifier_t3"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:rectifier_t2"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:rectifier"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Rectification"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			description: ["  Todo encantamento guardado nessa estante não irá mais aparecer enquanto encantando itens."]
+			id: "7BAE4B558A26F063"
+			tasks: [{
+				id: "5E3A068648DC4031"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			title: "Filtrando encantamentos"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B0262E9BADC5CA4"]
+			description: ["  Crie um spawner que só funciona ao receber um sinal de redstone."]
+			id: "583BEDC414E1BB33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F259B3A736E5486"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "apotheosis:spawner/redstone"
+				criterion: ""
+				id: "382D2A8045470429"
+				type: "advancement"
+			}]
+			title: "&eAdding a Switch"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B0262E9BADC5CA4"]
+			description: ["  Desligue a IA dos mobs de um spawner."]
+			id: "604A092C0EBBD461"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00D410BBDC6D5B56"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "apotheosis:spawner/noai"
+				criterion: ""
+				icon: "minecraft:diamond"
+				id: "7DC9AB2BD0D1EAD5"
+				type: "advancement"
+			}]
+			title: "&eBrain Drain"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B0262E9BADC5CA4"]
+			description: ["  Crie um spawner que não precisa de completa escuridão para funcionar."]
+			id: "579ED6C03408D29A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EA9BBAA6B4F3F34"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "apotheosis:spawner/light"
+				criterion: ""
+				id: "2BE4F5F472D2772A"
+				type: "advancement"
+			}]
+			title: "&e Who needs darkness?"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B0262E9BADC5CA4"]
+			description: ["  Remova as condições de spawn de mobs de um spawner."]
+			id: "3A2601EB9A05D8C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45E942722D8EBD21"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "apotheosis:spawner/conditions"
+				criterion: ""
+				icon: "minecraft:netherite_ingot"
+				id: "1CBB44862AE96885"
+				type: "advancement"
+			}]
+			title: "&eUncheked spawning"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			description: ["  Essa estante permite encantamentos como mending, soul speed e shift sneak aparecerem como opções na Mesa de Encantamentos."]
+			id: "22339CC3EA291D16"
+			tasks: [{
+				id: "40E24BEFF2CCFEFF"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			title: "Treasures Enchantments"
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			description: ["  Armazena encantamentos, que podem ser removidos posteriormente, de uma vez, removendo a necessidade de juntar livro por livro nas bigornas."]
+			id: "10A6678648EC3E09"
+			tasks: [{
+				id: "5BD40484D72E3323"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+	]
+	title: "&dApotheosis"
+}

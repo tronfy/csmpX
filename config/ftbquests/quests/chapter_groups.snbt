@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "58C520FF084BE885", title: "&lAventura" }
+		{ id: "4D07BFB6C667AD1A", title: "&lMagia" }
+		{ id: "60D2C736AE87EFC0", title: "&lOutros" }
+	]
+}

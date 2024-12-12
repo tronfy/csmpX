@@ -1,0 +1,502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "60D2C736AE87EFC0"
+	icon: "minecraft:chest"
+	id: "7D99178CE7405F01"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "toms_storage:ts.storage_terminal"
+			id: "2525A6E403537C88"
+			size: 1.0d
+			subtitle: "Item network"
+			tasks: [
+				{
+					id: "60969F3967F49BCE"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "0BA0B831B60FC135"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
+			title: "Tom's Simple Storage"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2525A6E403537C88"]
+			id: "697E7FCA04609F4A"
+			size: 1.0d
+			tasks: [{
+				id: "41497CE89201AA40"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["697E7FCA04609F4A"]
+			id: "3382098049BD4F6F"
+			size: 1.0d
+			subtitle: "Wifi access"
+			tasks: [{
+				id: "4D8AE62E45AFDF92"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3382098049BD4F6F"]
+			id: "1172CCC8090C4E38"
+			size: 1.0d
+			subtitle: "Cross-dimension"
+			tasks: [{
+				id: "7073B68953B35A65"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:chest"
+				tag: {
+					uuid: [I;
+						1257084460
+						239027552
+						-1262026414
+						1372227017
+					]
+					woodType: "oak"
+				}
+			}
+			id: "0C432849F1A75DFD"
+			size: 1.0d
+			subtitle: "Melhor armazenamento de itens"
+			tasks: [{
+				id: "53B8AA6DCDC32FF8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:base_tier_wooden_storage)"
+					}
+				}
+				title: "Any #sophisticatedstorage:base_tier_wooden_storage"
+				type: "item"
+			}]
+			title: "Sopphisticated Storage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C432849F1A75DFD"]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:iron_chest"
+				tag: {
+					uuid: [I;
+						-1622774508
+						631981597
+						-1766015253
+						-1138316252
+					]
+					woodType: "oak"
+				}
+			}
+			id: "7328551BB1FA83DD"
+			size: 1.0d
+			tasks: [{
+				id: "2D437E2856484F52"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			title: "Iron Upgrade"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7328551BB1FA83DD"]
+			description: ["Você pode melhorar do tier anterior ou da versão base até o tier desejado. "]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:gold_chest"
+				tag: {
+					uuid: [I;
+						-659843228
+						1159155503
+						-1311141110
+						731912359
+					]
+					woodType: "oak"
+				}
+			}
+			id: "53E41FF5EA10DCE3"
+			size: 1.0d
+			tasks: [{
+				id: "5F1953D3BC019DB8"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			title: "Gold Upgrade"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53E41FF5EA10DCE3"]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:diamond_chest"
+				tag: {
+					uuid: [I;
+						965779938
+						1986218755
+						-1346684365
+						-188474805
+					]
+					woodType: "oak"
+				}
+			}
+			id: "4D2AF297F444F0C8"
+			size: 1.0d
+			tasks: [{
+				id: "7AC75FF87A6F495B"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			title: "Diamond Upgrade"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D2AF297F444F0C8"]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:netherite_chest"
+				tag: {
+					uuid: [I;
+						1473073718
+						842025421
+						-1191363123
+						278591739
+					]
+					woodType: "oak"
+				}
+			}
+			id: "129253827662FD22"
+			size: 1.0d
+			tasks: [{
+				id: "351ABDBFFF48001C"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			title: "Netherite Upgrade"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C432849F1A75DFD"]
+			description: [
+				"  É possível instalar melhorias nos seus baús, melhorando a funcionalidade deles. "
+				""
+				"  A quantia de upgrades que podem ser instalados depende do rank do baú."
+			]
+			id: "2CD7714BBABF5069"
+			size: 1.0d
+			tasks: [{
+				id: "641D596EBDAE19D0"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			title: "Upgrades!"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CD7714BBABF5069"]
+			id: "13D56E0069353DD8"
+			size: 1.0d
+			tasks: [{
+				id: "0DFE3FF8E6A124E5"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "Stack Upgrade"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2CD7714BBABF5069"]
+			id: "592E2F448618019C"
+			size: 1.0d
+			tasks: [{
+				id: "23E98AA17D3A8166"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2CD7714BBABF5069"]
+			id: "1897F4820A7A7445"
+			size: 1.0d
+			tasks: [{
+				id: "76D9974D57FC3784"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26AB02C923C71885"]
+			id: "4EAAD6D2E92BD78E"
+			size: 1.0d
+			tasks: [{
+				id: "646438E32657AFD7"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CD7714BBABF5069"]
+			id: "02218235248F67AB"
+			size: 1.0d
+			tasks: [{
+				id: "6DBE21A96C8CD8FC"
+				item: "sophisticatedstorage:magnet_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2CD7714BBABF5069"]
+			id: "1D8D93EA1CE441BF"
+			size: 1.0d
+			tasks: [{
+				id: "7D94EB8FDD219148"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4EAAD6D2E92BD78E"]
+			id: "33FF1CEB3EEE05E4"
+			size: 1.0d
+			tasks: [{
+				id: "5C3F0B6C85C92DA1"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33FF1CEB3EEE05E4"]
+			id: "569E309DF00204E7"
+			size: 1.0d
+			tasks: [{
+				id: "05528F27C494EA74"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["569E309DF00204E7"]
+			id: "065E3F9BDB6F9D5F"
+			size: 1.0d
+			tasks: [{
+				id: "77DDC545BF94E6BA"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "26AB02C923C71885"
+			size: 1.0d
+			tasks: [{
+				id: "3496CFC705F6C5C1"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Sopphisticated Backpacks"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2525A6E403537C88"]
+			id: "6B2652DE38D783E6"
+			size: 1.0d
+			tasks: [{
+				id: "528733BEB07BB23B"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B2652DE38D783E6"]
+			icon: "toms_storage:ts.inventory_cable_framed"
+			id: "1A99259761B0FB82"
+			size: 1.0d
+			tasks: [
+				{
+					id: "377BF77C0A09C3CF"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "4EA0172627429B4F"
+					item: {
+						Count: 1
+						id: "toms_storage:ts.paint_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B2652DE38D783E6"]
+			id: "1482106C3C9698FB"
+			size: 1.0d
+			tasks: [{
+				id: "783C314292845BBA"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26AB02C923C71885"]
+			description: [
+				"  É possível instalar melhorias nas suas mochilas, melhorando a funcionalidade delas. "
+				""
+				"  A quantia de upgrades que podem ser instalados depende do rank da mochila."
+			]
+			id: "3C885FD5A25F2915"
+			size: 1.0d
+			tasks: [{
+				id: "3A5A208AA40EAD5C"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "Backpack Upgrades!"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C885FD5A25F2915"]
+			id: "7C490A3E40641E1C"
+			size: 1.0d
+			tasks: [{
+				id: "00FC31027E2350A7"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "Stack Upgrade"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C885FD5A25F2915"]
+			id: "47604236CEC9C42C"
+			size: 1.0d
+			tasks: [{
+				id: "2A30F2685706CEB5"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C885FD5A25F2915"]
+			id: "49A3828D39C71D93"
+			size: 1.0d
+			tasks: [{
+				id: "6B0FE853CA366BAA"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C885FD5A25F2915"]
+			id: "0D9AFB72221C895C"
+			size: 1.0d
+			tasks: [{
+				id: "672BB80A31233044"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C885FD5A25F2915"]
+			id: "1D4DBFF18E660827"
+			size: 1.0d
+			tasks: [{
+				id: "3A5FA87F591196E5"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B2652DE38D783E6"]
+			id: "65210CE74E8EF218"
+			size: 1.0d
+			tasks: [{
+				id: "408E30E60F3DB432"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C885FD5A25F2915"]
+			id: "49B316EABFBA6567"
+			tasks: [{
+				id: "49F33AE9F9219D5C"
+				item: "sophisticatedbackpacks:anvil_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+	]
+	title: "&eStorage"
+}

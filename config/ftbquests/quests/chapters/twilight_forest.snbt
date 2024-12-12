@@ -1,0 +1,513 @@
+{
+	autofocus_id: "67D29427096F9E23"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "58C520FF084BE885"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "1D6C0283A15074A5"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"  Cave um buraco 2x2x1 no chão, preencha ele de água e cerque-o com flores. "
+				""
+				"  Feito isso, jogue um diamante na água e o portal será aberto."
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "3C7AD0A01D20BC97"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "6967E3082A87BA45"
+				title: "Entre na Twilight Forest"
+				type: "dimension"
+			}]
+			title: "Twilight Forest"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C7AD0A01D20BC97"]
+			description: ["  Elimine a Naga em seu labirinto, localizado na Twilight Forest (bioma)."]
+			icon: "twilightforest:naga_trophy"
+			id: "2D6EA7C300600BF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09C740A2BC45CF53"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "3E2082609F150E34"
+				title: "Elimine a Naga"
+				type: "advancement"
+			}]
+			title: "Naga"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D6EA7C300600BF2"]
+			description: [
+				"  Elimine o Lich em seu castelo, localizado ainda na floresta. "
+				""
+				"  É necessário ter tido contato com as escamas da naga para entrar no castelo."
+			]
+			icon: "twilightforest:lich_trophy"
+			id: "44C35BE09FEB7779"
+			rewards: [
+				{
+					id: "354B7EC3F768B471"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A7368D2B6F2CB57"
+					table_id: 8854221932444470647L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:lich"
+					icon: "twilightforest:lich_spawn_egg"
+					id: "17B3F9A6B3BBC0B9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+					id: "3D8A6920061C775D"
+					title: "Elimine o Lich"
+					type: "advancement"
+				}
+			]
+			title: "Lich"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44C35BE09FEB7779"]
+			description: ["  Elimine o Alpha Yeti em seu covil, localizado no centro dos biomas de Snowy Forest."]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "67D29427096F9E23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "010550863B652C37"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				id: "21800B996BF25603"
+				title: "Elimine o Alpha Yeti"
+				type: "advancement"
+			}]
+			title: "Alpha Yeti"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44C35BE09FEB7779"]
+			description: [
+				"  Elimine os Phantom Knights nas masmorras dos goblins, enterradas sob a Dark Forest. "
+				""
+				"  Para entrar nessa dungeon será necessário sacrificar um troféu de qualquer outro boss na entrada, o colocando sobre o pedestal."
+			]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "325477ECB82D689A"
+			rewards: [
+				{
+					id: "4FF6986707F7CE0F"
+					item: {
+						Count: 1
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57DC512E0D7326A6"
+					table_id: 6535714654712916141L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "44303E66FD2D852A"
+				title: "Elimine os Phantom Knights"
+				type: "advancement"
+			}]
+			title: "Knight Fantom"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44C35BE09FEB7779"]
+			description: [
+				"  Elimine o Minoshroom, localizado no fim do labirinto subterrâneo na Twilight Swamp. "
+				""
+				"  Comer um Meef Stroganoff (drop) irá permitir acesso ao Fire Swamp."
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "1FF0925AD9FFFA9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D1161B4C4602556"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "3B7DC7C6C073F94F"
+				title: "Elimine o Minoshroom"
+				type: "advancement"
+			}]
+			title: "Minoshroom"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["325477ECB82D689A"]
+			description: ["  Elimine o Ur-Ghast, encontrado em sua torre no centro da Dark Forest."]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "729C6C0DAD1D98C9"
+			rewards: [
+				{
+					id: "4D6B86918E958B88"
+					item: {
+						Count: 1
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C8BF53EF0C473EC"
+					table_id: 1541069228600389254L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "4D05FFF4D3672BA1"
+				title: "Elimine o Ur-Ghast"
+				type: "advancement"
+			}]
+			title: "Ur-Ghast"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["67D29427096F9E23"]
+			description: ["  Elimine a Rainha de Gelo no Palácio da Aurora, localizado nos biomas de Glacier."]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "0DEEEFBD84F7BFCE"
+			rewards: [
+				{
+					id: "4B17FE296434921D"
+					item: {
+						Count: 1
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "673BDE5D5C28697C"
+					table_id: 1541069228600389254L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "&oLet it go"
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "72E2422090017000"
+				title: "Elimine a Snow Queen"
+				type: "advancement"
+			}]
+			title: "Snow Queen"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FF0925AD9FFFA9A"]
+			description: ["  Elimine a Hydra em seu covil, localizado no Fire Swamp."]
+			icon: "twilightforest:hydra_trophy"
+			id: "3519C4EC471C2F09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3686CD1F277BE53A"
+				table_id: 1541069228600389254L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "2C71188FED7B0D73"
+				title: "Elimine a Hydra"
+				type: "advancement"
+			}]
+			title: "Hydra"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["411AEE141866B9B1"]
+			id: "7E6E2BD4D98DD3C6"
+			size: 1.0d
+			tasks: [{
+				biome: "twilightforest:highlands"
+				icon: "twilightforest:mangrove_sapling"
+				id: "4D67E08DDBB6B3A6"
+				title: "Visite as Highlands"
+				type: "biome"
+			}]
+			title: "The Highlands"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3848B24C8DF3D428"]
+			description: ["  Uma vez nas nas nuvens, elimine os gigantes que moram lá para conseguir a Picareta Gigante."]
+			id: "764EF8615C0647B0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3208821700CF9DFD"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["764EF8615C0647B0"]
+			description: ["  Com a &bPicareta Gigante&f, retorne ao solo, cabe abaixo da nuvem para encontrar o Cofre de Obsidian. Quebre ele usando a picareta para obter a &eLamp of Cinders&r do báu escondido."]
+			id: "0AF3883D296AF41D"
+			tasks: [{
+				id: "617A776FA431EEA4"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E6E2BD4D98DD3C6"]
+			description: [
+				"  Nas Highlands, encontre uma Nuvem gigante. Abaixo dela, dentro de cavernas, aparecerão Trolls."
+				""
+				"  Mate eles para conseguir os feijões mágicos e use eles no solo brilhante para ir às nuvens, onde habitam gigantes."
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "3848B24C8DF3D428"
+			tasks: [{
+				advancement: "twilightforest:troll"
+				criterion: ""
+				id: "5A7D58245382D9FA"
+				title: "Mate um troll"
+				type: "advancement"
+			}]
+			title: "Trolls"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AF3883D296AF41D"]
+			description: [
+				"   Usando a Lamp of Cinders, abra caminho pelas Thornlands e encontre o Castelo Final."
+				""
+				"   Infelizmente, o mod da Twilight acaba aqui, nessa estrutura. O castelo tem ótimos blocos de construção e portais que podem ser usados na sua base, fique à vontade para leva-los de lembrança."
+			]
+			id: "241CA9F75BC14277"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33F81E5E552D9878"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: "twilightforest:mossy_castle_brick"
+				id: "5B27311E77A70CF8"
+				structure: "twilightforest:final_castle"
+				title: "Encontre o Castelo Final"
+				type: "structure"
+			}]
+			title: "&dCastelo Final"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3519C4EC471C2F09"
+				"729C6C0DAD1D98C9"
+				"0DEEEFBD84F7BFCE"
+			]
+			description: [
+				"  Parabéns! Você eliminou todos os bosses da Twilight Forest."
+				""
+				"  Porém, se quiser continuar, ainda existem mais 2 lugares pra visitar... para fins de complecionismo, nada mais."
+			]
+			id: "411AEE141866B9B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A848A2795B847FD"
+				table_id: 1360621381254826890L
+				title: "Arma Única"
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2DC212FABDFCF186"
+				type: "checkmark"
+			}]
+			title: "Fim?"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C7AD0A01D20BC97"]
+			icon: "minecraft:gold_ore"
+			id: "63837FA30D656475"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B59E4C75C1BD44A"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3F03B3416898A87C"
+					structure: "twilightforest:small_hollow_hill"
+					title: "Small hollow hill"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "twilightforest:ironwood_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 1s
+							}]
+						}
+					}
+					id: "515608FD4A69488B"
+					structure: "twilightforest:medium_hollow_hill"
+					title: "Medium hollow hill"
+					type: "structure"
+				}
+				{
+					icon: "twilightforest:firefly"
+					id: "42FC73E7C87DB962"
+					structure: "twilightforest:large_hollow_hill"
+					title: "Large hollow hill"
+					type: "structure"
+				}
+			]
+			title: "Hollow Hills"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C7AD0A01D20BC97"]
+			description: ["  Encontre a Quest Ram e dê a ela o que está faltando..."]
+			id: "76EC6BEF045BC211"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3127754D5F2EB6E3"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			subtitle: "&oTaste the rainbow"
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "05B5D71E9B883ED2"
+				title: "Quest Ram"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C7AD0A01D20BC97"]
+			description: ["  O mapa indica a localização dos bosses e outros pontos de interesse na Twilight Forest."]
+			id: "05F4BE6F0F6CC1BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "390392748BA5E76D"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B324DF65290488F"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+	]
+	title: "&2Twilight Forest"
+}

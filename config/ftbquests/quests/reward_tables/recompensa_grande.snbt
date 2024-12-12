@@ -1,0 +1,8 @@
+{
+	id: "1562FA4C6902EE86"
+	loot_size: 1
+	order_index: 3
+	rewards: [{ item: "numismatics:cog" }]
+	title: "Recompensa grande"
+	use_title: true
+}

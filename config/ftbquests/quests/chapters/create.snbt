@@ -1,0 +1,826 @@
+{
+	autofocus_id: "20E45DEC0DF66112"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "60D2C736AE87EFC0"
+	icon: "create:wrench"
+	id: "0EF3DCE2B421954B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3F64F03DD89CA676"]
+			id: "7B2072709D543631"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7987E4ED8D27D842"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58A6A8FE538E761E"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B2072709D543631"]
+			description: ["  Quando utilizado em um &6blaze burner&r, permite que esse seja ativado com &bcombustíveis líquidos&r (lava, seed oil e bio fuel) ao invés de sólidos (madeira, carvão...)."]
+			id: "40B787495ED0D471"
+			tasks: [{
+				id: "412A9072A4C8A526"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40B787495ED0D471"]
+			id: "398E03215101EAD6"
+			subtitle: "Normal fuel"
+			tasks: [{
+				id: "4CF606708D67809D"
+				item: "createaddition:seed_oil_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40B787495ED0D471"]
+			id: "52911F79F1EA79DF"
+			subtitle: "Superheat fuel"
+			tasks: [{
+				id: "61A7B6AA34CABA18"
+				item: "createaddition:bioethanol_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D1FBF9DFC267C40"]
+			description: ["  Create: Steam 'n' Rails adiciona diversos novos trilhos! Crie alguns para começar com os trens."]
+			icon: "create:track"
+			id: "3F397481A20F0DDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "500B4575C8F4AB8B"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "6B03C9BC6977F362"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:tracks"
+					}
+				}
+				title: "Train Tracks"
+				type: "item"
+			}]
+			title: "Trilhos"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F397481A20F0DDF"]
+			description: [
+				"  Usando esses itens (e uma super cola), crie seu primeiro trem."
+				""
+				"  Para começar, clique com o botão direito em um &btrilho de trem&r usando a &btrain station&r, depois a coloque por perto. Interaja com a estação, selecione a opção \"Create new train\", e uma marcação azul deverá aparecer sobre os trilhos. "
+				""
+				"  Clique com a &bTrain Casing&r nessa marcação e um boggey será criado. A partir daí, crie o trem da forma que desejar (lembrando dos blocos essenciais) e &olembre de usar a &asuper cola&r&o em tudo quando terminar.&r"
+				""
+				"  Volte para a estação e finalize o trem (Assemble new train)."
+			]
+			icon: "create:controls"
+			id: "6548C2EDE7026804"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74B097A2FD07662A"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			subtitle: "Todos a bordo"
+			tasks: [
+				{
+					id: "4D3BAFCDE93E9D89"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:seats"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46E9DEB8B6B97845"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "1D5DBC08B660B57B"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "5CE804DBB2DAC327"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			title: "Trens!"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["  O componente mais básico do Create, ponto de entrada para os componentes do mod."]
+			id: "2EF193DD7DF47CFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29C75AFD4CF91AB6"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "20169DCA0028ACB7"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76288C9E6F5D2428"]
+			icon: "create:mechanical_mixer"
+			id: "3F64F03DD89CA676"
+			tasks: [
+				{
+					id: "27F5494225012A09"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "5F9E95591BA80A1F"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78116F70A85C9472"]
+			id: "76288C9E6F5D2428"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "694722DD00A52759"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Mechanical Press"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EF193DD7DF47CFD"]
+			id: "78116F70A85C9472"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A4E8F380D52197E"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6EAD029EA211BEA9"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EF193DD7DF47CFD"]
+			id: "52AFE06B937C8662"
+			tasks: [{
+				count: 8L
+				id: "020D0E5509B112E2"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52AFE06B937C8662"]
+			id: "07A5F4098BB2A8BF"
+			subtitle: "Transportando itens"
+			tasks: [{
+				id: "027F93171444C79E"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52AFE06B937C8662"]
+			id: "1351095FE382337B"
+			tasks: [
+				{
+					id: "605BE690B9C7BD87"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "1A691E50D46519D2"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F7D3B4EAF85A998"]
+			id: "6D1FBF9DFC267C40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D06100F8A95C8EE"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "77F5B414DCE2C672"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B2072709D543631"]
+			id: "3F7D3B4EAF85A998"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76A912E0C7F7D6E4"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6526ECF26E8B7BB7"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07A5F4098BB2A8BF"]
+			id: "3986C7A3859FF4BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DBE651FE6D7FE59"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			subtitle: "Logística no Transporte"
+			tasks: [
+				{
+					id: "5CE568C2B8E9A7BB"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+				{
+					id: "33D4D1992AE8CC95"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CD84E282C95CF96"]
+			id: "5FE74404321A01F7"
+			tasks: [{
+				id: "46F5DEE023240E08"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CD84E282C95CF96"]
+			id: "5E2119E4CC36C11B"
+			tasks: [
+				{
+					id: "0B1078E165A062CD"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "7D060D6403F5CA7B"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CD84E282C95CF96"]
+			icon: "create:windmill_bearing"
+			id: "2C4A0A4EBEDC962F"
+			tasks: [
+				{
+					id: "5F457D0847B02E37"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "0A466744BA12C2B1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:sail_frame"
+								}
+								{
+									Count: 1b
+									id: "create:white_sail"
+								}
+								{
+									Count: 1b
+									id: "minecraft:white_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:light_gray_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:gray_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:black_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:brown_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:red_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:orange_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:yellow_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:lime_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:green_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:cyan_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:light_blue_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:blue_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:purple_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:magenta_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:pink_wool"
+								}
+							]
+						}
+					}
+					title: "Sail Block"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF193DD7DF47CFD"]
+			description: [
+				"  As máquinas do Create são ativadas por &6rotações&r, gerando &6stress&r no processo."
+				""
+				"  A &nvelocidade de rotação&r (rotações por minuto / &bRPM&r) determina a velocidade de operação de cada máquina, e quanto &bstress&r será &bnecessário&r para operar &7(quanto mais rápido, mais stress requirido)&r."
+				""
+				"  Existem quatro maneiras de gerar stress: &3Rodas d'água&r, &3moinhos de vento&r, &3manivela&r e o &dmotor à vapor&r. "
+				"  "
+				"  As três primeiras formas são &3mais simples&r, sendo ideais para o early game, enquanto a última é &dmais complexa&r e requer recursos mais avançados, sendo recomendada mais para o mid ou late game. "
+			]
+			icon: "create:stressometer"
+			id: "4CD84E282C95CF96"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "33E29F93A39831EA"
+				type: "checkmark"
+			}]
+			title: "Stress Units (SU)"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B2072709D543631"]
+			icon: "create:steam_engine"
+			id: "788D61098E11610E"
+			tasks: [
+				{
+					id: "39A8B04FDFEC325A"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "1323BB015017B658"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "4C320A205D95DC43"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "74CF881A0DB6F5E3"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78116F70A85C9472"]
+			id: "39D2716AF0E648D7"
+			tasks: [{
+				id: "73628E36CE83B52D"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["78116F70A85C9472"]
+			id: "3E36762ABBCFB17E"
+			tasks: [{
+				id: "1D422D357B56A4C2"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78116F70A85C9472"]
+			id: "20FAB96AD61F6ADA"
+			tasks: [{
+				id: "2D09240F2FE1BFE1"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78116F70A85C9472"]
+			id: "6747331B1D372840"
+			tasks: [{
+				id: "44568F3B8131B8F5"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EF193DD7DF47CFD"]
+			description: [
+				"  Contrações são um conjunto customizavel de blocos que realizam movimento. "
+				""
+				"  São criadas ao ativar uma &6Âncora de Movimento&r (listadas nas quests relacionadas). &7Existem outras, essas são apenas as principais.&r "
+				"  "
+				"  Para que múltiplos blocos sejam movimentados pela contração é  necessário conecta-los utilizando de: &aSuper cola&r &7(mais comum)&r ou Chassis &eRadial&r ou &eLinear&r."
+			]
+			id: "05EC5D096915507A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60F2A962FB262E1B"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "419337AA7F0B5855"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&dContraptions"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07A5F4098BB2A8BF"]
+			id: "2397CC55441D898B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0482EDD16D5463BA"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "720239B297CD33E6"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "50489E91433F5B46"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6EC6FB4A21A1F831"
+				"043B8C6B9F3DB851"
+				"129E1C009629EB9B"
+			]
+			dependency_requirement: "one_completed"
+			description: ["  Permite a troca de itens entre uma contração e um inventário externo."]
+			id: "59AFF92D53574478"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C77504A68AF0CCB"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "74E559873CFBD693"
+				item: { Count: 2, id: "create:portable_storage_interface" }
+				type: "item"
+			}]
+			title: "Portable Storage Interface"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05EC5D096915507A"]
+			icon: "create:cart_assembler"
+			id: "043B8C6B9F3DB851"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "097079F9AB0696A9"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "60CF0230E2AA9443"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05EC5D096915507A"]
+			id: "6EC6FB4A21A1F831"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D2650489E0D9047"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B1589AC2A30D611"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05EC5D096915507A"]
+			id: "129E1C009629EB9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62174EDD0D9EDF97"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A95C3C82056E06E"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D1FBF9DFC267C40"]
+			id: "039C9E9EF4329879"
+			tasks: [{
+				id: "28D7B5BD48AE06D9"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["039C9E9EF4329879"]
+			id: "39EBA64C2008F7E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3567554EE6812CD4"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "20A0F9B2892E0C40"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["039C9E9EF4329879"]
+			id: "5E59A00231C47F4A"
+			tasks: [{
+				id: "6D6A1F0A30FB0731"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["064A4E716BDCCA89"]
+			id: "0EE7F7CDFF76A97D"
+			tasks: [{
+				id: "4051084433D7134A"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F7D3B4EAF85A998"]
+			id: "064A4E716BDCCA89"
+			tasks: [{
+				id: "28C67200092D21DC"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52AFE06B937C8662"]
+			id: "3C5E3AA4D7782897"
+			tasks: [
+				{
+					id: "179D113E01E36D44"
+					item: "create:clutch"
+					type: "item"
+				}
+				{
+					id: "709BC74681C41882"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2EF193DD7DF47CFD"]
+			description: ["  O canhão de esquemáticas consegue recriar estruturas a partir de um blueprint, desde que seja abastecido com pólvora e com os blocos necessários (devem estar dentro de alguma forma de báu e posicionados adjacentes ao canhão."]
+			icon: "create:schematicannon"
+			id: "5F4410DABC9930CA"
+			subtitle: "Copiar e... atirar?"
+			tasks: [
+				{
+					id: "75D391C43EF94E32"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "787F690C7D7EFB84"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "0B64B22EB5C0298F"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EF193DD7DF47CFD"]
+			description: [
+				"  A maioria dos itens permite usar o ponder. Segure 'W' enquanto com o mouse sobre um item, para um tutorial de como usa-lo."
+				""
+				"  &7Durante o tutorial, você pode apertar 'Q' para pausar o vídeo e ler o nome dos blocos apresentados, ao passar com o mouse sobre eles."
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			icon_scale: 0.75d
+			id: "7740CB84F5E5F95F"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "54AFB1729FD15A79"
+				title: "Pondering"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76288C9E6F5D2428"]
+			id: "1F99BF62FB9C1247"
+			tasks: [{
+				id: "557BDD45D78A2177"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "&6Wrench"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76288C9E6F5D2428"]
+			description: ["  Quando equipado, fornece informações adicionais sobre o bloco do Create sendo visualizado."]
+			id: "7D3B188BCF7DF678"
+			tasks: [{
+				id: "41F63A240CC6C3BE"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "&6Engineer's Goggles"
+			x: -0.5d
+			y: -1.5d
+		}
+	]
+	title: "&6Create"
+}

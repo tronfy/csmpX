@@ -1,0 +1,8 @@
+{
+	id: "5AB385D9CB7A68AD"
+	loot_size: 1
+	order_index: 2
+	rewards: [{ count: 3, item: "numismatics:bevel", random_bonus: 1, weight: 4.0f }]
+	title: "Recompensa media"
+	use_title: true
+}

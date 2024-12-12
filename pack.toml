@@ -1,0 +1,12 @@
+name = "CSMP X"
+version = "1.2"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a3cb5077aa17e2596c5c1597a87b6e296ea9af8f416ac27b150f8d2947f703a8"
+
+[versions]
+forge = "47.3.0"
+minecraft = "1.20.1"

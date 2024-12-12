@@ -1,0 +1,124 @@
+{
+	autofocus_id: "20628A7416216A80"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "15F887500EF760B4"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/quests/csmp_x.png"
+		rotation: 0.0d
+		width: 5.580381471389646d
+		x: 0.0d
+		y: -2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"  Seja bem-vindo(a) a 10° edição do &dCapivara SMP&r!"
+				""
+				"  Para essa edição especial, decidimos criar um modpack com quests, na esperança de ajudar os jogadores com os mods que eles não conhecem &7- e também para quem gosta de ir atrás de conquistas e complecionismo. &r"
+				""
+				"  Desejamos à todos uma ótima jornada!"
+			]
+			disable_toast: true
+			icon: "minecraft:grass_block"
+			id: "20628A7416216A80"
+			rewards: [{
+				count: 8
+				id: "32B8A8CEFC39D922"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Bem vindo!"
+			tasks: [{
+				id: "54E0507BCC8256E8"
+				type: "checkmark"
+			}]
+			title: "CSMP X"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20628A7416216A80"]
+			description: [
+				"  O mod adiciona novas animações para suas armas, além de uma variedade de novas para você craftar. "
+				""
+				"  Encontre a que melhor se encaixa com seu estilo."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F97405AB928D1FF"
+			subtitle: "Um novo modo de combate"
+			tasks: [{
+				id: "3732C255D6A756F5"
+				title: "Epic Fight"
+				type: "checkmark"
+			}]
+			title: "Better Combat"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20628A7416216A80"]
+			description: ["  Algumas das quests irão te recompensar com moedas! Você pode usar essas para realizar trocas com outros jogadores, usando o mod &6Create: Numismatics&r!"]
+			icon: "numismatics:vendor"
+			id: "4918FBAD39E7F7DC"
+			subtitle: "&o$$$"
+			tasks: [{
+				id: "139458718B6C2AA8"
+				title: "Numismatics"
+				type: "checkmark"
+			}]
+			title: "Numismatics!"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20628A7416216A80"]
+			description: [
+				"  Ao abrir o seu inventário, no canto superior esquerdo há uma opção chamada &bFTB Chunks: Claim Manager&r. "
+				""
+				"  Clicando nesse botão, você terá acesso ao mapa da sua região, onde você pode selecionar os chunks que deseja marcar como seus!"
+				""
+				"  Chunks \"pegos\" por jogadores são, por padrão, imunes a grieffing de outros jogadores (pode ser alterado nas suas configurações). Até mesmo interações com blocos podem ser bloqueadas!"
+			]
+			icon: "minecraft:white_banner"
+			id: "6FA38BA9B79837EF"
+			subtitle: "Segurança em primeiro lugar"
+			tasks: [{
+				id: "5DC35443BF1A2E62"
+				title: "FTB Chunks"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20628A7416216A80"]
+			description: ["  Esse modpack adiciona algumas novas dimensões ao jogo, como o &3Otherside&r e a &5Twilight Forest&r. Explore todas elas!"]
+			icon: "minecraft:nether_star"
+			id: "36F7F4B6F85564DA"
+			subtitle: "Novas aventuras"
+			tasks: [{
+				id: "37BA3DA05755A12C"
+				title: "Dimensões"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	title: "&3Introdução"
+}

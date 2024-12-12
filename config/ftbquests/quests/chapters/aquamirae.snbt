@@ -1,0 +1,494 @@
+{
+	autofocus_id: "3EB12C9D713E92E0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquamirae"
+	group: "58C520FF084BE885"
+	icon: "aquamirae:rune_of_the_storm"
+	id: "23FDD3497A04CBB0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["  Procure pelo labirinto em um bioma de &bDeep Frozen Ocean&r."]
+			id: "3EB12C9D713E92E0"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				advancement: "aquamirae:adventure/find_ice_maze"
+				criterion: ""
+				id: "054A05574235CADB"
+				title: "Encontre o Labirinto de Gelo"
+				type: "advancement"
+			}]
+			title: "O Labirinto"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04C6C9A2A3E1D6D3"]
+			description: [
+				"  Usado para invocar o &dFantasma do Labirinto&r. "
+				""
+				"  &7Recomendado:&r Poção de Fraqueza para cortar sua cura. "
+				"  É possível vencer a luta usar desse debuff, mas será necessário dar uma alta quantia de dano."
+			]
+			id: "283AEDF840585243"
+			tasks: [{
+				id: "34A177F3F6E4D101"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["283AEDF840585243"]
+			icon: {
+				Count: 1
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "50679D9A1824003A"
+			rewards: [
+				{
+					id: "7F7A6AD236F7418F"
+					item: {
+						Count: 1
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "3374B1B95AFDF03F"
+					table_id: 1360621381254826890L
+					title: "Simply Swords Weapon"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45BB5AD657265FF7"
+					table_id: 6535714654712916141L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:captain_cornelia_spawn_egg"
+				id: "29DFF6B46FD6B548"
+				title: "Elimine a &dCapitã Cornelia"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dFantasma das Profundezas"
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EB12C9D713E92E0"]
+			description: ["  Elimine todos os inimigos do barco. Matar o Capitão irá dropar um item especial..."]
+			id: "04C6C9A2A3E1D6D3"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "46C7722757858565"
+				structure: "aquamirae:ship"
+				title: "Encontre um barco encalhado"
+				type: "structure"
+			}]
+			title: "Barco Pillager"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11F97553E6565A01"]
+			description: ["  Garante habilidades extras ao utilizar a armadura completa."]
+			icon: {
+				Count: 1
+				id: "aquamirae:terrible_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "23D7FEB7258A94A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64C6C9FE3912DFAA"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "213B5B2C27068A1C"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07C903945A590928"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D3C770C91A51258"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "517E30A827026B4D"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura de Escamas"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3BCFD984B9EF1C5B"
+				"719828B4BC3C19BF"
+			]
+			description: ["  Garante habilidades extras ao utilizar a armadura completa."]
+			icon: {
+				Count: 1
+				id: "aquamirae:abyssal_brigantine"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "21C4629C92E43617"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "392E31D3C5A96309"
+				table_id: 1541069228600389254L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "03AD1BA235602637"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56814BD12C86D938"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_tiara"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73D8D2468CAEEF53"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3984059654E81DE7"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AF52AC419315256"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura Abissal"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23D7FEB7258A94A0"]
+			description: ["  É necessário utilizar a armadura para ativar a habilidade passiva desse item."]
+			id: "33E28C07192D89E1"
+			tasks: [{
+				id: "40C6475487A6CA50"
+				item: {
+					Count: 1
+					id: "aquamirae:remnants_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["21C4629C92E43617"]
+			description: ["  É necessário utilizar a armadura para ativar a habilidade passiva desse item."]
+			id: "5D3F344DF4CB9C47"
+			tasks: [{
+				id: "63D6139840AC01D0"
+				item: {
+					Count: 1
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21C4629C92E43617"]
+			description: ["  É necessário utilizar a armadura para ativar a habilidade passiva desse item."]
+			id: "730938C270E358C1"
+			tasks: [{
+				id: "1FF299955700E3CA"
+				item: {
+					Count: 1
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21C4629C92E43617"]
+			description: ["  É necessário utilizar a armadura para ativar a habilidade passiva desse item."]
+			id: "20FA3FB1A077A2B9"
+			tasks: [{
+				id: "6EB1DFAF475774E1"
+				item: {
+					Count: 1
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["23D7FEB7258A94A0"]
+			description: ["  É necessário utilizar a armadura para ativar a habilidade passiva desse item."]
+			id: "019BE82B36E2B701"
+			tasks: [{
+				id: "19F99CDC03B4668D"
+				item: {
+					Count: 1
+					id: "aquamirae:fin_cutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EB12C9D713E92E0"]
+			icon: "aquamirae:esca"
+			id: "11F97553E6565A01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F413AB52FE69D40"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:anglerfish_spawn_egg"
+				id: "779532AFB4EC267D"
+				title: "Mate 10 Anglerfish"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Anglerfish"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50679D9A1824003A"]
+			icon: {
+				Count: 1
+				id: "aquamirae:three_bolt_suit"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "387E4631901AEF54"
+			tasks: [
+				{
+					id: "1EC7D7B6494C83B0"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AE91A9953890343"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0081F5F8E1F6F4CE"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23384EBE636CA75D"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Subnautica"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50679D9A1824003A"]
+			id: "3F2101F43460A75F"
+			tasks: [{
+				id: "720ABC8AB81E787F"
+				item: "aquamirae:frozen_key"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F2101F43460A75F"]
+			id: "3BCFD984B9EF1C5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DA8EDEFC3829BD1"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "25D7638805931B13"
+				item: "obscure_api:astral_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3EB12C9D713E92E0"]
+			id: "719828B4BC3C19BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D6AB639BC9F4617"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FFF33405E197997"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "&bAquamirae"
+}

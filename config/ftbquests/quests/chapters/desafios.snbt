@@ -1,0 +1,428 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "desafios"
+	group: "60D2C736AE87EFC0"
+	icon: "minecraft:bedrock"
+	id: "23AB03123113A806"
+	images: [
+		{
+			alpha: 200
+			height: 1.25d
+			image: "minecraft:block/sculk_shrieker_inner_top"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			alpha: 200
+			height: 1.5d
+			image: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+			rotation: 45.0d
+			width: 1.5d
+			x: -1.0d
+			y: -5.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			id: "35E39E167C32FF09"
+			progression_mode: "flexible"
+			require_sequential_tasks: false
+			rewards: [{
+				count: 2
+				id: "767A9103DEF73430"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "botania:challenge/gaia_guardian_hardmode"
+					criterion: ""
+					disable_toast: true
+					id: "38312B65F93D4551"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/rank_ss_pick"
+					criterion: ""
+					disable_toast: true
+					id: "372C2B102A7A1D38"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/odin_ring"
+					criterion: ""
+					disable_toast: true
+					id: "589E37C752CE886E"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/loki_ring"
+					criterion: ""
+					disable_toast: true
+					id: "1605C207E60C2BA5"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/thor_ring"
+					criterion: ""
+					disable_toast: true
+					id: "28C3AD08939CFCB9"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/infinite_fruit"
+					criterion: ""
+					disable_toast: true
+					id: "20A2F822D57580F2"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/king_key"
+					criterion: ""
+					disable_toast: true
+					id: "2289449E82C48757"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/flugel_eye"
+					criterion: ""
+					disable_toast: true
+					id: "7A42E069AE8D7D19"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:challenge/gaia_guardian_no_armor"
+					criterion: ""
+					disable_toast: true
+					id: "4F998B365C338F70"
+					type: "advancement"
+				}
+			]
+			title: "&dBotania "
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			id: "446361F2E661BD72"
+			rewards: [{
+				count: 2
+				id: "7E551F9633043C8C"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/balanced_diet"
+					criterion: ""
+					id: "50252664A6B7768F"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:nether/all_effects"
+					criterion: ""
+					id: "2F5B91993E67CAD0"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:husbandry/bred_all_animals"
+					criterion: ""
+					id: "7D64C9C9523779D4"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:husbandry/complete_catalogue"
+					criterion: ""
+					id: "4F5BF649B47F7299"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
+					criterion: ""
+					id: "0DBD3F57D49C983D"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/kill_all_mobs"
+					criterion: ""
+					id: "0994A9AD8492CE58"
+					type: "advancement"
+				}
+				{
+					advancement: "progressivebosses:max_diff_dragon"
+					criterion: ""
+					id: "43CF691BCAF72147"
+					type: "advancement"
+				}
+				{
+					advancement: "progressivebosses:max_diff_wither"
+					criterion: ""
+					id: "0DF3D4976958F9C5"
+					type: "advancement"
+				}
+			]
+			title: "&dVanilla"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "0D4792BC90139D6A"
+			rewards: [{
+				count: 2
+				id: "53FFBEECBFA66BAC"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "create:stressometer_maxed"
+					criterion: ""
+					id: "750ACA9CF48A7A59"
+					type: "advancement"
+				}
+				{
+					advancement: "create:crusher_maxed_0000"
+					criterion: ""
+					id: "6AA3874DF3C54941"
+					type: "advancement"
+				}
+				{
+					advancement: "create:potato_cannon_collide"
+					criterion: ""
+					id: "22C776D430D099C7"
+					type: "advancement"
+				}
+				{
+					advancement: "create:self_deploying"
+					criterion: ""
+					id: "7DB7CFDAC27F600D"
+					type: "advancement"
+				}
+				{
+					advancement: "create:train_portal"
+					criterion: ""
+					id: "3E8CAF9766686BF8"
+					type: "advancement"
+				}
+				{
+					advancement: "create:display_board_0"
+					criterion: ""
+					id: "0F2BFD2772D07E49"
+					type: "advancement"
+				}
+				{
+					advancement: "create:long_travel"
+					criterion: ""
+					id: "165836FA02F81D64"
+					type: "advancement"
+				}
+				{
+					advancement: "create:steam_engine_maxed"
+					criterion: ""
+					id: "3C39B8683B6166B3"
+					type: "advancement"
+				}
+				{
+					advancement: "create:hose_pulley_lava"
+					criterion: ""
+					id: "7EF104D9BD3D7266"
+					type: "advancement"
+				}
+			]
+			title: "&dCreate"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "7C82E73703F7CDE1"
+			rewards: [{
+				count: 2
+				id: "72E7226161C3AFCA"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "20936E8024EE03BC"
+					item: "twilightforest:uncrafting_table"
+					type: "item"
+				}
+				{
+					advancement: "twilightforest:arborist"
+					criterion: ""
+					id: "61A3C051BFD9DD04"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:twilight_dinner"
+					criterion: ""
+					id: "4B3C727677FF2329"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:mazebreaker"
+					criterion: ""
+					id: "5822B96D8D797EDC"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:hydra_chop"
+					criterion: ""
+					id: "7D97DEEE7E948F78"
+					type: "advancement"
+				}
+			]
+			title: "&dTwilight Forest"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "083390FD60C822A8"
+			rewards: [{
+				count: 2
+				id: "36DB76906FC5D26D"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "cataclysm:kill_monstrosity"
+					criterion: ""
+					id: "361F99161ED120C0"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_maledictus"
+					criterion: ""
+					id: "10A4FB566CA96B0C"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "4770983ABEBF2A8A"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "054EFDE278AB71BA"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_remnant"
+					criterion: ""
+					id: "25BA55A1A47F50C6"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_harbinger"
+					criterion: ""
+					id: "5BF56988005A4E60"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_ender_golem"
+					criterion: ""
+					id: "506433FEE1DB222F"
+					type: "advancement"
+				}
+			]
+			title: "&dCataclysm"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "37F103891B43182F"
+			rewards: [{
+				count: 2
+				id: "29B0134F9CACB74B"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "631C57A645AC9734"
+					item: {
+						Count: 1
+						id: "simplyswords:magispear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10A9AF156A21E932"
+					item: {
+						Count: 1
+						id: "simplyswords:magiblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B027734B0EA6512"
+					item: {
+						Count: 1
+						id: "simplyswords:magiscythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15D586C52B8D2E1E"
+					item: {
+						Count: 1
+						id: "simplyswords:enigma"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6368600CDC9BF391"
+					item: {
+						Count: 1
+						id: "simplyswords:harbinger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E1A57F9243A5E65"
+					item: {
+						Count: 1
+						id: "simplyswords:sunfire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&dSimply Swords"
+			x: -2.5d
+			y: -3.5d
+		}
+	]
+	title: "&cDesafios"
+}

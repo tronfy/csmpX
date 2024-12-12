@@ -1,0 +1,433 @@
+{
+	autofocus_id: "566696AB2B37CB3E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "58C520FF084BE885"
+	icon: "minecraft:netherrack"
+	id: "29A5282D3E4F2D1D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: "minecraft:netherrack"
+			id: "566696AB2B37CB3E"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Down we go"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "793E94BA5D6C92FF"
+				title: "Entre no Nether"
+				type: "dimension"
+			}]
+			title: "Nether"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["566696AB2B37CB3E"]
+			id: "6B1CE150368BF72D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7707456A885C249B"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "1E5F77D63FEA1255"
+				structure: "minecraft:fortress"
+				title: "Encontre uma fortaleza"
+				type: "structure"
+			}]
+			title: "Fortaleza"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["566696AB2B37CB3E"]
+			id: "00E6C19517D2FE53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B21FBA976068895"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: "minecraft:gilded_blackstone"
+				id: "5FF2A4E120D84E2C"
+				structure: "minecraft:bastion_remnant"
+				title: "Encontre um Bastion"
+				type: "structure"
+			}]
+			title: "Bastion"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["566696AB2B37CB3E"]
+			description: ["  Visite todos os biomas do Nether."]
+			id: "1260D05D1C951C5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48616C632BCFCB4F"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "213A2C6434FCE7CD"
+				type: "advancement"
+			}]
+			title: "&dHot Tourist Destinations"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["566696AB2B37CB3E"]
+			icon: "minecraft:nether_star"
+			id: "4B0CEA6EFAA38F69"
+			rewards: [
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "4E9D220E745B6D91"
+					table_id: 1360621381254826890L
+					title: "Simply Swords Weapon"
+					type: "loot"
+				}
+				{
+					id: "00B1156763390FD7"
+					item: {
+						Count: 1
+						id: "endrem:wither_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A55423DCABCF337"
+					table_id: 1541069228600389254L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "2212485FDDB27F8E"
+				title: "Elimine o Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dWither Boss"
+			x: 0.0d
+			y: -1.375d
+		}
+		{
+			dependencies: ["4B0CEA6EFAA38F69"]
+			id: "6F58D20DFF73653C"
+			tasks: [{
+				id: "1727A8055B01204C"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["566696AB2B37CB3E"]
+			id: "6B4883A7973114F6"
+			tasks: [{
+				id: "02D83912D99FA938"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B4883A7973114F6"]
+			description: ["Obtenha uma armadura de netherite completa."]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0EF41AE691739BF6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5219FE1D42876A02"
+				table_id: 1541069228600389254L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "5C841F5FA05F541B"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A7CE2336237774F"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F403C5B97918AC2"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "447B1E0792FDCF5F"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&dCover me in Debris"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B4883A7973114F6"]
+			id: "48A7EA70CB3E57B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ED3D887F50274B5"
+				table_id: 1541069228600389254L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2C1382269F5ED17C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:netherite_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "farmersdelight:netherite_knife"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_longsword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_twinblade"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_rapier"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_katana"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_sai"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_spear"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_glaive"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_warglaive"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_cutlass"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_claymore"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_greathammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_greataxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_chakram"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_scythe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "simplyswords:netherite_halberd"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Arma de Netherite"
+					type: "item"
+				}
+				{
+					id: "57BD12EC2439A8AD"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "380DD804049BEE57"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44FA5AC97C8FCC25"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A6051FD78F26C11"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arsenal de Netherite"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00E6C19517D2FE53"]
+			id: "16C3AC9495A8F071"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66962E30C25D2735"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2207BA05FAD2887C"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	title: "&4Nether"
+}

@@ -1,0 +1,1381 @@
+{
+	autofocus_id: "4D088554600B940B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells"
+	group: "4D07BFB6C667AD1A"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:netherite_spell_book"
+		tag: {
+			ISB_Spells: {
+				data: [ ]
+				maxSpells: 12
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "1D0385A60B3DC3EA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0FBCBB55EB672817"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:shadowwalker_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "072BB87433182128"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A0F22BF59A63612"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1BAC61EFECEBEFC6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13596AE26AEA5735"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5044540A9236F173"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63F8A6FC55F5FC4E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shadow-Walker"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0FBCBB55EB672817"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:pyromancer_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "6E0AD76B92AB110D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B9B142ECFE40312"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "48C0566F144C544F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06480571F6D12A93"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F474F6FB8A86C64"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3584B172C992B2AF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pyromancer"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FBCBB55EB672817"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:cryomancer_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "5AEE1B2D71E36BA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4133302D8E2EDF53"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "116E73BEE09FBBE5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28F72B11CAB029E7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5054DDE4A2BC2E16"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F88A97BE2DDFDF4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cryomancer"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FBCBB55EB672817"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:electromancer_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "00B885B78F3941FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "183F1B7329C6BB42"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "4B37DEA5976D891D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "753985EABEF6FBBC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "246B20CCF173B27F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A90EC7273B6EE52"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Electromancer"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0FBCBB55EB672817"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:priest_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "6ECF572DBD6B93B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB20610247913F4"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3E6C1DDEA3E3C2F2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28115A3B0B92F493"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "535170562EE63532"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "218BCF7D3F177FAB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Priest"
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0FBCBB55EB672817"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:cultist_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "7107CF43C64915A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07D52F5CABAFE955"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1E5845DD2D36A7FB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "629071CFE94E4297"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EC6D3901ED5CE6E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1295D2E5DF308485"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cultist"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0FBCBB55EB672817"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:archevoker_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "742EF173C3A42247"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62CB6265E4570F78"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "67C8A8948E58F4DC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D2C04C343CD9414"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CDB1F9FD2351F70"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "215966D604994DB3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Archevoker"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FBCBB55EB672817"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:plagued_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "4D12ADBB812E516D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DA825810A98815E"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "318AF54F78E3B997"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D28AB87F97F1284"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4221CB49FB479A9B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BF83CDA5EB9E4A5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Plagued"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4D088554600B940B"]
+			id: "0C49A7A962F8F10D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61712ED688DB439C"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3AF28F9BEF9A17B3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4D088554600B940B"]
+			id: "0CA54AE24CB1EC09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "326CD68B6172F406"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4F04FE1C07CC6086"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4D088554600B940B"]
+			id: "2EA1C7A737129A24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6571D676A5755917"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5DAF900853EEF189"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4D088554600B940B"]
+			id: "49F2108F441C2F03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27EDE0A8DEC4AC10"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "73B06CE09EFDD2DF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4D088554600B940B"]
+			id: "1DA66A46173D0310"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B82E2BA50CCC42D"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "54930E6F09E75FD9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			id: "2DA927100F3DFDFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "719C5F3FBFFBB70B"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1761B52D9DC95565"
+				item: "irons_spellbooks:lightning_rod"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			description: ["  &7*Permafrost shards são encontrados em Icebreaker Shipwrecks."]
+			id: "6BD8D3B9E86AC764"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19B5D8ED0BB044C9"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7302321516415DB6"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			id: "0B5F355338DB29D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F1366C1FEE938EF"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "62C77F8707B49036"
+				item: "irons_spellbooks:artificer_cane"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			id: "061F2D8774CDA919"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5819E872A83A8008"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "43C801AA39E0AAEB"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			id: "25C568857A2DC656"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "475932584E01CE17"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5FD02E580AD868E0"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"  Utilizada para imbuir magias (scrolls) em um tomo."
+				""
+				"  Magias realizadas através do tomo não são consumidas, mas entram em tempo de recarga e consomem mana. Utilizar seu scroll irá consumi-lo no processo, mas não gasta mana."
+			]
+			id: "4D088554600B940B"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "24EA5D83CBC6B856"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D088554600B940B"]
+			description: [
+				"  A Scroll Forge em conjunto com uma tinta permite a criação de magias. "
+				""
+				"  Magias de nível mais alto requerem tintas raras, assim como um tomo de melhor qualidade para abriga-las."
+			]
+			icon: "irons_spellbooks:scroll_forge"
+			id: "6ACE792E62085557"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77EE68DA46DF8D7F"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1917BCC860593E6E"
+					item: "irons_spellbooks:scroll_forge"
+					type: "item"
+				}
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/ink_root"
+					criterion: ""
+					id: "286F3241BE57AB08"
+					title: "Obtenha qualquer raridade de Tinta"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D088554600B940B"]
+			description: [
+				"  Item extramente versátil, permite: "
+				"   1. Imbuir magias em armas"
+				"   2. Melhorar armaduras"
+				"   3. Melhorar o nível de um scroll"
+			]
+			id: "15660B6D926C9037"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77E830F77CF97A8D"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "18135F61DA356E32"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "726797EBB203D5A8"
+			tasks: [{
+				id: "3294500B631EDEE6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["726797EBB203D5A8"]
+			id: "05A725F67578CBDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74F9531133BDD131"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: "minecraft:cracked_deepslate_bricks"
+				id: "2FFBBBDCA75E879A"
+				structure: "irons_spellbooks:catacombs"
+				title: "&2Encontre as Catacumbas"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05A725F67578CBDD"]
+			id: "3836316A3427DEAC"
+			rewards: [
+				{
+					id: "7636BD4DAE22313D"
+					item: {
+						Count: 1
+						id: "endrem:corrupted_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "581017F2B2C533DB"
+					table_id: 1360621381254826890L
+					title: "Simply Swords Weapon"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06FC62DD6845E9D1"
+					table_id: 6535714654712916141L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "Heads will roll"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:tarnished_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				id: "709845A2D50D5ED6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dRegicidio"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:wandering_magician_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A94458D433EDB40"
+			tasks: [
+				{
+					id: "69879C4E0163F013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29FEF4AA640BD59C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F7B6AFFA33779CE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E976CCD10778B5E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wandering Magician "
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			id: "6138D4D8E1254A1A"
+			subtitle: "+ Mana regen"
+			tasks: [{
+				id: "6A4693F465685959"
+				item: "irons_spellbooks:amethyst_resonance_charm"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:pumpkin_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "33B0681E24F9F5CC"
+			tasks: [
+				{
+					id: "4231955EECA48E9D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31BA94230A797685"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65906F11BDC88099"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "013CBFE4B9E90726"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Scarecrow Armor"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			id: "0E638090B8064104"
+			subtitle: "+ Max Mana"
+			tasks: [{
+				id: "150E5AD2C0BD9BCF"
+				item: "irons_spellbooks:mana_ring"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			id: "5AE95BA473BD38E3"
+			subtitle: "+ CdR"
+			tasks: [{
+				id: "4047C73D9D777666"
+				item: "irons_spellbooks:cooldown_ring"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:netherite_mage_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F094D07EA48130D"
+			tasks: [
+				{
+					id: "6612D5552C388C08"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55E056D37A81C747"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EF8426CF4724E15"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D53FC27E1228C27"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Battlemage"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15660B6D926C9037"]
+			description: ["  Ao junta-lo com um scroll em uma arcane anvil, garante, enquanto equipado, +1 nível para a magia escolhida."]
+			id: "6D39C301119B6B34"
+			tasks: [{
+				id: "29FB72B1EFD643A1"
+				item: "irons_spellbooks:affinity_ring"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15660B6D926C9037"]
+			description: ["  Utilizados para melhorar determinado atributo em armaduras, tomos e staffs."]
+			id: "4FB4D02D350951E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B032D2B02B83946"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5FA7D24C976B23E6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:fire_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ice_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:lightning_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:holy_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ender_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:blood_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:evocation_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:nature_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:mana_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:cooldown_upgrade_orb"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:protection_upgrade_orb"
+							}
+						]
+					}
+				}
+				title: "Qualquer Upgrade Orb"
+				type: "item"
+			}]
+			title: "Upgrade Orb"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "0FBCBB55EB672817"
+			tasks: [{
+				id: "3526FED8991FBD7E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_spellbooks:fire_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ice_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:lightning_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:ender_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:holy_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:blood_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:evocation_rune"
+							}
+							{
+								Count: 1b
+								id: "irons_spellbooks:nature_rune"
+							}
+						]
+					}
+				}
+				title: "Qualquer runa elemental"
+				type: "item"
+			}]
+			title: "Runas de Foco"
+			x: -4.5d
+			y: -5.5d
+		}
+	]
+	title: "&6Iron's Spells"
+}
