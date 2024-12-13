@@ -993,6 +993,11 @@ hash = "b0732421ae2999d558a7b70a11fa86a93738ca33f6f3ec343017796df9c47d9c"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "0e17f9758f6f67ef87aa6f8d5afc47901521a05904cd8470ef65063b48e69d73"
+metafile = true
+
+[[files]]
 file = "mods/citadel.pw.toml"
 hash = "3cdf0c628239ca09dd0378d39008729b17d4916aeed9e60c0b2d75f5bcc3b4be"
 metafile = true
@@ -1085,6 +1090,11 @@ metafile = true
 [[files]]
 file = "mods/creativecore.pw.toml"
 hash = "b9c02ea06393d11ac2123f4d296d4d51103259709b2422754c71b80f88bcc0d2"
+metafile = true
+
+[[files]]
+file = "mods/cristel-lib.pw.toml"
+hash = "5cf8a06431f16a18dc468baae3fbdf17cc1d72b9697da58cb126342ed937aa59"
 metafile = true
 
 [[files]]
@@ -1398,6 +1408,11 @@ hash = "b849dfdaaa3e4ad635fb16595bfd6ae03b83de0c02f5b06faafb24cc33926f3f"
 metafile = true
 
 [[files]]
+file = "mods/noisium.pw.toml"
+hash = "c18dd089c44103b56f8edcbd41a071e41a1fcd46094b2c93df5cc5f07853f18b"
+metafile = true
+
+[[files]]
 file = "mods/numismatics.pw.toml"
 hash = "ce5224b0f7ff2789f11b6415a274dce1db7e9870b3d39160987f4838ce0e5d37"
 metafile = true
@@ -1578,6 +1593,16 @@ hash = "791be45440111d5edac5246dc8db707e25f5534783212ebe3909ad40b7230a4b"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "23c3dddf24d8d65b2ad798247389647b47e10439dca2c46b1c958a8d2b0a1841"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "3b61fcf1c80cfdd79282be71ddfa9cce02fc13f8d87a760db455e2a97b801f40"
+metafile = true
+
+[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "d1f859de9867b7433305aef1631aa22a436a4c3924474a21c0a22ab5f2093c04"
 metafile = true
@@ -1585,6 +1610,11 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "3869af43202af44211167226216ecd0ff557a87fe4fa8e01a271fe4e4c37b844"
+metafile = true
+
+[[files]]
+file = "mods/towns-and-towers.pw.toml"
+hash = "72c0e1d4d8eb05e6c82c8959885ee5f08b8c7ede63b438e22a7422246679cc46"
 metafile = true
 
 [[files]]
@@ -1640,6 +1670,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-nether-fortresses.pw.toml"
 hash = "05f825a655bc94af6ab592d13c396b60c818cfc65ff2528e206e7a40a180e210"
+metafile = true
+
+[[files]]
+file = "mods/yungs-extras.pw.toml"
+hash = "743e4ac214adfb6d757f50987cbdcb449bf92d075bcebf7f7a739d8cd1d2e2f1"
 metafile = true
 
 [[files]]
