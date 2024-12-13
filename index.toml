@@ -1294,7 +1294,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-filters.pw.toml"
-hash = "6f92d6a906fe5d960b53dc83e0060edfb2604f8deb4b38d25f7f66525966f7ad"
+hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
 metafile = true
 
 [[files]]
@@ -1360,6 +1360,11 @@ metafile = true
 [[files]]
 file = "mods/max-health-fix.pw.toml"
 hash = "878e22c186eea5703c64d0da20a73d2a169986d05da802e2d4ca439c025d0ef3"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "c9f8bce06b85e4dbfdaecc7d0930bf7f4fabccc7967f867b7eb7acb8dd5b77a7"
 metafile = true
 
 [[files]]
