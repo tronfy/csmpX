@@ -1068,6 +1068,11 @@ hash = "ba16d5e568349bc79bb6a648090047fee23db3931f5399f9ad09c930410c740c"
 metafile = true
 
 [[files]]
+file = "mods/create-structures.pw.toml"
+hash = "4f64bc81a381a3cb0c637829d547d8b0f5daa0ea29fe84a9e43a91784763745e"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "1eceb4e4ab86c793f992ce9444e92f46dae76c3f744d8e19feb1143fb6c01939"
 metafile = true
@@ -1080,6 +1085,21 @@ metafile = true
 [[files]]
 file = "mods/creativecore.pw.toml"
 hash = "b9c02ea06393d11ac2123f4d296d4d51103259709b2422754c71b80f88bcc0d2"
+metafile = true
+
+[[files]]
+file = "mods/ct-overhaul-village.pw.toml"
+hash = "96b92f9d6c4b3866ba018a99d7b01e07b12aca02e74dfdc6407c45c1af2b4d19"
+metafile = true
+
+[[files]]
+file = "mods/ctov-create-structures.pw.toml"
+hash = "d0114dcd9e7b204c1d2438b902faa1561763d8bd5b3130080895a16e106f06af"
+metafile = true
+
+[[files]]
+file = "mods/ctov-irons-spells-n-spellbooks-compat.pw.toml"
+hash = "338582879cd9a517b932b3ae0795020ed4f0857c21c4b884c9d06e59ac8e3d1f"
 metafile = true
 
 [[files]]
