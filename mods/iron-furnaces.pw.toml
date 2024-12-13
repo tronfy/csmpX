@@ -3,11 +3,11 @@ filename = "ironfurnaces-1.20.1-4.1.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ce28ca1679c9c353b8e4391b45499f16b19b6648"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/yPlaLxD1/versions/fGEswUMR/ironfurnaces-1.20.1-4.1.6.jar"
+hash-format = "sha512"
+hash = "1ccccbc2b81f6580424e63e910df53c68bd5ef1fa952a57536b73b88a45466e5105585e0db1e1fa9ad2e764da092341bad1deb474d781edcff83f54e3c432402"
 
 [update]
-[update.curseforge]
-file-id = 5159498
-project-id = 237664
+[update.modrinth]
+mod-id = "yPlaLxD1"
+version = "fGEswUMR"

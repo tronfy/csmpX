@@ -3,11 +3,11 @@ filename = "waystones-forge-1.20-14.1.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "39fd81849da768e5a1ea5331856b6e5d74e3fcdd"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/LOpKHB2A/versions/5LARDzDl/waystones-forge-1.20-14.1.6.jar"
+hash-format = "sha512"
+hash = "bc1779174b758ea26abd6858626595f3a5362605bc9cbf5d101f626bff9bff5e92f89ef05266cd5ebebe1ab0ef5f0d9af18e385e280237c116a02010c298e2c7"
 
 [update]
-[update.curseforge]
-file-id = 5841750
-project-id = 245755
+[update.modrinth]
+mod-id = "LOpKHB2A"
+version = "5LARDzDl"

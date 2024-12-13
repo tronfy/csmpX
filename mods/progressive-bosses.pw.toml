@@ -1,13 +1,13 @@
 name = "Progressive Bosses"
-filename = "ProgressiveBosses-3.9.7-mc1.20.1.jar"
+filename = "ProgressiveBosses-4.2.1-mc1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8977aa960e0b4801e4e9495f2e16bb8fc98373f5"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Zxspe0HA/versions/krcOmp2Z/ProgressiveBosses-4.2.1-mc1.20.1.jar"
+hash-format = "sha512"
+hash = "dc6d6b1c1029f0b415069fc11f299060dc0d8b5a7e7beb2a3eff5788438f26ad4eec85a0c8652a46af6f19d82cf520aceddd2222378449e37ffb796a404809b8"
 
 [update]
-[update.curseforge]
-file-id = 5317155
-project-id = 289466
+[update.modrinth]
+mod-id = "Zxspe0HA"
+version = "krcOmp2Z"
