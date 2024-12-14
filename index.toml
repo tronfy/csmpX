@@ -318,7 +318,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "bf33c39bd3a65bceb7c91e58a30abec8b330219791a43e594eeebb34a29fd6a7"
+hash = "97557b83e623e71d8f502423da45000086237cf87d89164ea09dd18daa8f35d9"
 
 [[files]]
 file = "config/fancymenu/panoramas/capybaras/panorama/panorama_0.png"
@@ -406,15 +406,15 @@ hash = "1f4c3e589a04eac7e8507306ce42f039194d26b555bea0dac2f48fc5f94b4e32"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/botania.snbt"
-hash = "8809801682ce3b4ad8434b722d3d845d7f7cfc3408701a0db0ad4aec2bc46cd7"
+hash = "d9c94ab3bb8311b26694629858e777276ac651aa154c054296f169272bd74606"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
-hash = "77aa78eb1d2b99b424b08c58220b41b38bcd3f3d7fc153d72c199451834109a3"
+hash = "caaf360c76b352be5a8736624fe2243c6086d2f48d05e608f5977d67e727e96a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "90caf7b7c8aaed4ea6ad31fac443bd778b202bfe90f172bbd8018b93dc119331"
+hash = "027b0c81974122f9b08a6b979b12839b833bf32aac3a6095cebeecb77bcf7148"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deeper_and_deeper.snbt"
@@ -426,11 +426,11 @@ hash = "8619f68d20ff3d57475e488dcaa6678a76804f929f8822d65631f79cffe7805e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
-hash = "174be515c6b906d9ead7ca80733ef51237400598894243774e10cf02b9c3be10"
+hash = "2f10a2e2aec275cfc0d532d23459ae071bf1bc1de2e68152b98fd197589b3dfd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
-hash = "6b440a878df126d8906b3c74c8b81bb04ddf9671b715e33dbad898ac4bff63bc"
+hash = "11f70880112cc4a11bbf8462082ce283110398ce3a11a88972e1a2cb68f26a04"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/numismatics.snbt"
@@ -446,11 +446,11 @@ hash = "2215362c62809ee9bf0b3242667134b23e969cce67c234d8dc45399ed951ecc0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_end.snbt"
-hash = "d51e978e963ec4f339b33bbacedfbf42d308bffc0444701f0278e1759ad80e69"
+hash = "b328ccd608981c9fc696eaa0d8970a6f409384ca3784fb1a31f06ecb6abb49c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
-hash = "931b6a12e0591b2a54a3e3aaad2487a01c0fb0d3b3bb9b5666f1b3b8a1d819b1"
+hash = "2c5c5a9d688da8ca4d2c67738e6794d2761d1c27de7c8e9780315e2a19de04c2"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -954,7 +954,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "logo.png"
-hash = "612d65a33e0345ef7299b983dd7192bb7615a6036ad5b58c3c07087672e41cfc"
+hash = "4b88af3780a263bc251a9d8b0f8b2862453c2d7858bf8ea0fbceca894aeb3fb2"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
