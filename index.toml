@@ -945,10 +945,6 @@ file = "kubejs/data/apotheosis/recipes/spawner/spawn_count.json"
 hash = "17813fcecb22cf97a44c96ffed54b10319ef55f7ed5b0f26a5b1ef549ce036b9"
 
 [[files]]
-file = "kubejs/server_scripts/recipes.js"
-hash = "fe303c5ab7d1931408b593479150dfa376026c357282d7ab51fd18aa817ada93"
-
-[[files]]
 file = "kubejs/startup_scripts/potion.js"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
