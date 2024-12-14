@@ -428,6 +428,38 @@
 			x: -2.5d
 			y: 0.0d
 		}
+		{
+			id: "1F14CC1EC253A79D"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13362B58480CA480"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:bedrock"
+				id: "5DC470030B6DC948"
+				ignore_dimension: false
+				position: [I;
+					-8000
+					127
+					-8000
+				]
+				size: [I;
+					16000
+					10000
+					16000
+				]
+				title: "Visite o teto do Nether"
+				type: "location"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
 	]
 	title: "&4Nether"
 }

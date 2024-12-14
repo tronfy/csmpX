@@ -47,8 +47,15 @@
 			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
-				icon: "cataclysm:netherite_monstrosity_spawn_egg"
+				icon: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "2EFCA726761B9974"
+				title: "Elimine a Netherite Monstrosity"
 				type: "kill"
 				value: 1L
 			}]
@@ -65,7 +72,7 @@
 				criterion: ""
 				icon: "minecraft:damaged_anvil"
 				id: "0503861DE40C98CB"
-				title: "Encontre a Forja das Almas"
+				title: "Encontre a Soul Forge"
 				type: "advancement"
 			}]
 			title: "A forja no Nether"
@@ -142,8 +149,15 @@
 			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
-				icon: "cataclysm:ancient_remnant_spawn_egg"
+				icon: {
+					Count: 1
+					id: "cataclysm:bone_reptile_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "47A6A80C8646A507"
+				title: "Elimine o Ancient Remnant"
 				type: "kill"
 				value: 1L
 			}]
@@ -169,7 +183,7 @@
 				criterion: ""
 				icon: "minecraft:tube_coral"
 				id: "416F3776F8DF0C75"
-				title: "Encontre a Cidade Afundada"
+				title: "Encontre a Sunken City"
 				type: "advancement"
 			}]
 			title: "Atlantis"
@@ -212,8 +226,9 @@
 			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
-				icon: "cataclysm:the_leviathan_spawn_egg"
+				icon: "cataclysm:abyssal_egg"
 				id: "3F6D92F301615B2D"
+				title: "Elimine o Leviathan"
 				type: "kill"
 				value: 1L
 			}]
@@ -228,10 +243,10 @@
 				advancement: "cataclysm:find_ancient_factory"
 				criterion: ""
 				id: "54056F221633E0F6"
-				title: "Encontre a Fábrica Anciã"
+				title: "Encontre a Ancient Factory"
 				type: "advancement"
 			}]
-			title: "Fábrica anciã"
+			title: "Ancient Factory"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -271,8 +286,9 @@
 			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
-				icon: "cataclysm:the_harbinger_spawn_egg"
+				icon: "cataclysm:witherite_ingot"
 				id: "430C21A9109E84B7"
+				title: "Elimine o Harbinger"
 				type: "kill"
 				value: 1L
 			}]
@@ -308,7 +324,7 @@
 				criterion: ""
 				icon: "cataclysm:altar_of_fire"
 				id: "74038CBD59797026"
-				title: "Encontre a Arena Flamejante"
+				title: "Encontre a Burning Arena"
 				type: "advancement"
 			}]
 			title: "A Arena"
@@ -351,8 +367,15 @@
 			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:ignis"
-				icon: "cataclysm:ignis_spawn_egg"
+				icon: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "7585249C8F21BE01"
+				title: "Elimie Ignis"
 				type: "kill"
 				value: 1L
 			}]
@@ -377,7 +400,7 @@
 				advancement: "cataclysm:find_ruined_citadel"
 				criterion: ""
 				id: "2E19EEA1CD85D073"
-				title: "Encontre a Cidadela Arruinada"
+				title: "Encontre a Ruined Citadel"
 				type: "advancement"
 			}]
 			title: "Cidadela Arruinada"
@@ -406,8 +429,9 @@
 			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:ender_golem"
-				icon: "cataclysm:ender_golem_spawn_egg"
+				icon: "cataclysm:void_core"
 				id: "1AEF1037684179FF"
+				title: "Elimine o Ender Golem"
 				type: "kill"
 				value: 1L
 			}]
@@ -454,6 +478,7 @@
 			y: 5.0d
 		}
 		{
+			description: ["  Necessário para invocar o boss, obtido através dos mobs guardando os andares inferiores da arena."]
 			id: "186E48566C7692BE"
 			tasks: [{
 				id: "10E63D407E925722"
@@ -485,8 +510,15 @@
 			size: 1.5d
 			tasks: [{
 				entity: "cataclysm:maledictus"
-				icon: "cataclysm:maledictus_spawn_egg"
+				icon: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "2E1EE3BD0D0E6880"
+				title: "Elimine Maledictus"
 				type: "kill"
 				value: 1L
 			}]

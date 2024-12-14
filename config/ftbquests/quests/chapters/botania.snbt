@@ -105,7 +105,7 @@
 			tasks: [{
 				count: 16L
 				id: "512C612E199C0F91"
-				item: { Count: 16, id: "botania:livingrock" }
+				item: "botania:livingrock"
 				type: "item"
 			}]
 			x: 2.5d
@@ -118,7 +118,7 @@
 			tasks: [{
 				count: 16L
 				id: "302A1493114A60F3"
-				item: { Count: 16, id: "botania:livingwood_log" }
+				item: "botania:livingwood_log"
 				type: "item"
 			}]
 			x: 2.5d
@@ -551,13 +551,13 @@
 				{
 					count: 5L
 					id: "414B497FF47A9A05"
-					item: { Count: 5, id: "botania:livingrock" }
+					item: "botania:livingrock"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "7F2ABF1DAB430DAB"
-					item: { Count: 4, id: "minecraft:lapis_block" }
+					item: "minecraft:lapis_block"
 					type: "item"
 				}
 			]
@@ -609,25 +609,25 @@
 				{
 					count: 3L
 					id: "0DD1724451772BEB"
-					item: { Count: 3, id: "botania:glimmering_livingwood_log" }
+					item: "botania:glimmering_livingwood_log"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "6F38A4952E469087"
-					item: { Count: 8, id: "botania:livingwood_log" }
+					item: "botania:livingwood_log"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "53CD49E98732A15B"
-					item: { Count: 2, id: "botania:natura_pylon" }
+					item: "botania:natura_pylon"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "6CD549CAE54C4BFA"
-					item: { Count: 2, id: "botania:mana_pool" }
+					item: "botania:mana_pool"
 					type: "item"
 				}
 			]
@@ -649,7 +649,7 @@
 				{
 					count: 4L
 					id: "458CA8269500D953"
-					item: { Count: 4, id: "botania:gaia_pylon" }
+					item: "botania:gaia_pylon"
 					type: "item"
 				}
 				{
@@ -942,7 +942,7 @@
 		}
 		{
 			dependencies: ["077CC899A1CC4901"]
-			description: ["  Ritual nível 2: Use um &dgaia spirit ingot&r ao invés de um terrasteel ingot"]
+			description: ["  Ritual nível 2: Use um &dgaia spirit ingot&r ao invés de um terrasteel ingot."]
 			id: "6CCD0A5AF0033AB1"
 			rewards: [
 				{

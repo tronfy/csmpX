@@ -964,7 +964,7 @@
 				icon: "minecraft:cracked_deepslate_bricks"
 				id: "2FFBBBDCA75E879A"
 				structure: "irons_spellbooks:catacombs"
-				title: "&2Encontre as Catacumbas"
+				title: "&bEncontre as Catacumbas"
 				type: "structure"
 			}]
 			x: 1.5d

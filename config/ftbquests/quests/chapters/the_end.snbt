@@ -336,7 +336,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["770B530F59BB1397"]
+			dependencies: ["7FCBE14788368A78"]
 			id: "4043EC6121596565"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -351,7 +351,7 @@
 				title: "Encontre uma End City"
 				type: "structure"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -374,25 +374,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4043EC6121596565"]
-			id: "68EF4D8257C92416"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6FEE20D6B3CA4BFD"
-				table_id: 8854221932444470647L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "3BE072E792E4843F"
-				item: "minecraft:dragon_head"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["770B530F59BB1397"]
@@ -414,6 +397,7 @@
 			]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
 				id: "1A27AE1FF0B32FF0"
 				title: "Mate o &dEnder Dragon"
 				type: "kill"
@@ -421,6 +405,19 @@
 			}]
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["770B530F59BB1397"]
+			id: "7FCBE14788368A78"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "1C6D1F2C11A0E309"
+				title: "Remote Getaway"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	title: "&5The End"

@@ -612,7 +612,7 @@
 			tasks: [{
 				count: 2L
 				id: "74E559873CFBD693"
-				item: { Count: 2, id: "create:portable_storage_interface" }
+				item: "create:portable_storage_interface"
 				type: "item"
 			}]
 			title: "Portable Storage Interface"

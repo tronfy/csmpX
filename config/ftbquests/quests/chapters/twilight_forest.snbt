@@ -80,22 +80,13 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					entity: "twilightforest:lich"
-					icon: "twilightforest:lich_spawn_egg"
-					id: "17B3F9A6B3BBC0B9"
-					type: "kill"
-					value: 1L
-				}
-				{
-					advancement: "twilightforest:progress_lich"
-					criterion: ""
-					id: "3D8A6920061C775D"
-					title: "Elimine o Lich"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "3D8A6920061C775D"
+				title: "Elimine o Lich"
+				type: "advancement"
+			}]
 			title: "Lich"
 			x: -3.0d
 			y: -2.0d
@@ -328,7 +319,7 @@
 		}
 		{
 			dependencies: ["764EF8615C0647B0"]
-			description: ["  Com a &bPicareta Gigante&f, retorne ao solo, cabe abaixo da nuvem para encontrar o Cofre de Obsidian. Quebre ele usando a picareta para obter a &eLamp of Cinders&r do báu escondido."]
+			description: ["  Com a &bPicareta Gigante&f, retorne ao solo, cave abaixo da nuvem para encontrar o Cofre de Obsidian. Quebre-o usando a picareta para obter a &eLamp of Cinders&r do báu escondido."]
 			id: "0AF3883D296AF41D"
 			tasks: [{
 				id: "617A776FA431EEA4"
@@ -369,7 +360,9 @@
 			description: [
 				"   Usando a Lamp of Cinders, abra caminho pelas Thornlands e encontre o Castelo Final."
 				""
-				"   Infelizmente, o mod da Twilight acaba aqui, nessa estrutura. O castelo tem ótimos blocos de construção e portais que podem ser usados na sua base, fique à vontade para leva-los de lembrança."
+				"   Infelizmente, o mod da Twilight acaba aqui, nessa estrutura. "
+				""
+				"  O castelo tem ótimos blocos de construção e portais que podem ser usados na sua base, fique à vontade para leva-los como lembrança."
 			]
 			id: "241CA9F75BC14277"
 			rewards: [{
@@ -418,6 +411,7 @@
 		}
 		{
 			dependencies: ["3C7AD0A01D20BC97"]
+			description: ["  Espalhados pela Twilight estão alguns montes. Dentro deles há uma grande quantidade de minérios e monstros. São bem recompensadores..."]
 			icon: "minecraft:gold_ore"
 			id: "63837FA30D656475"
 			rewards: [{
