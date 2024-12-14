@@ -946,7 +946,7 @@ hash = "17813fcecb22cf97a44c96ffed54b10319ef55f7ed5b0f26a5b1ef549ce036b9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "e45b9c01363d7d2bef32379f5ce11fdd23a1c76f55e7fac66f411b53a1336390"
+hash = "fe303c5ab7d1931408b593479150dfa376026c357282d7ab51fd18aa817ada93"
 
 [[files]]
 file = "kubejs/startup_scripts/potion.js"
