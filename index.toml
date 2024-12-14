@@ -406,7 +406,7 @@ hash = "1f4c3e589a04eac7e8507306ce42f039194d26b555bea0dac2f48fc5f94b4e32"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/botania.snbt"
-hash = "d9c94ab3bb8311b26694629858e777276ac651aa154c054296f169272bd74606"
+hash = "3e181e27591a56899dc544c36f35cefb1026ab96abd684b48f9e563a095dbaad"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
@@ -414,7 +414,7 @@ hash = "caaf360c76b352be5a8736624fe2243c6086d2f48d05e608f5977d67e727e96a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "027b0c81974122f9b08a6b979b12839b833bf32aac3a6095cebeecb77bcf7148"
+hash = "3295a8c78b67f3c9362c7a612111c0b3184e49c9666430ba14aa7b57f31fd24a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deeper_and_deeper.snbt"
