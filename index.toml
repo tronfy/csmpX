@@ -241,6 +241,10 @@ file = "config/deeperdarker-common.toml"
 hash = "8cbd895ecaf34f553f3fc87b5009edcfad3f22fbc44c85d2364b3dd50b38d1b5"
 
 [[files]]
+file = "config/drippyloadingscreen/options.txt"
+hash = "80ed128a0e856c1d2cf85164d65366dc0c3d14813009401f030ed29143be48e5"
+
+[[files]]
 file = "config/dynamic_fps.json"
 hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
 
@@ -275,6 +279,86 @@ hash = "d9e5cf998be72a172aa6934dea61c97bd04e4c600388c9dddd26896f7e38ecdf"
 [[files]]
 file = "config/entityculling.json"
 hash = "81b6afd82e5ab2ca45b5fc0f025ef5638b3d2df534dbc05bb7e399042706c961"
+
+[[files]]
+file = "config/fancymenu/assets/capybara.gif"
+hash = "f4b64006a8a5461a2132ad3b18072b388fd49d608bd025d1b336653f3ee52e87"
+
+[[files]]
+file = "config/fancymenu/assets/title.png"
+hash = "ffcb6c7b6d89069aeac649a119c41a1982e282389647563afe2151c2a3e9180a"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "8b8d63ecc8fdd9e5a755644c2532acad534b6f4a41144b2ea977857d625f6a72"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "97acff116a25df6da12609a321386353dfadff5f2fa1e8f72d31ba779b9d92fc"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "6af149cbca35062d07e9c80f4a23a2afd6349adbdc3c607cea8e98915fb6b9bc"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "8ac2c37f7aefbd7e1b059c37c7608850440451ae70febc3919c07f81e009479b"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "aa69ab69c4c7b743fae0d23f15bbda92b5b46432b67e2d8e047c29c6160b0fb3"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "bf33c39bd3a65bceb7c91e58a30abec8b330219791a43e594eeebb34a29fd6a7"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_0.png"
+hash = "459393d34d613cde99f521694096bc684fcf5384ec074f827dc42d41177f2954"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_1.png"
+hash = "163b62de082629cec8cf5d57720548ca95fc82efb4639f3cb7640aa9addb1298"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_2.png"
+hash = "61b1b0a800096e9489452f0f4f1c99bcce0016e10c8dfb73cbfc37f32665e6a8"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_3.png"
+hash = "2637371ede30da978a1d0de0c8a74e61034b674092d6a3662a93f52c576aa0d4"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_4.png"
+hash = "3fbbd1e4fd57889c33fdd3e34373cfb693a8bce8d75aef0bda23791ce0beed92"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/panorama/panorama_5.png"
+hash = "3f753f5b5ccfe5c57ae90e84eda4532e0d05a3d385018abde78c7a9be1c94ba4"
+
+[[files]]
+file = "config/fancymenu/panoramas/capybaras/properties.txt"
+hash = "0130b75b3e498f65e4e3844cf17ffe905a882bc6aa627035b657d07a66fae8fb"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "43ac9bee88f1a4c9b66fee0d4b6fcec14a52feab46bf803928aabed96f510cc9"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -1054,7 +1138,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-curios-jetpack.pw.toml"
-hash = "1a36c8f40b9b3f3bbcafda8fb1ba2ef6a3140459b0e9c2b4349694fc21b648a1"
+hash = "877bf4fd893cf72c3ca03bd7d6869e38d1a2798731adb4a6a8ccae1714c8380d"
 metafile = true
 
 [[files]]
@@ -1540,6 +1624,11 @@ metafile = true
 [[files]]
 file = "mods/silent-lib.pw.toml"
 hash = "7f281333e1c573bc3673446c291d82f3137bfc7de6a5256d61417f67be7b40bc"
+metafile = true
+
+[[files]]
+file = "mods/simple-login.pw.toml"
+hash = "88bdb37465eaaeea366e49cb9cee56a4b7165e7dba43c00f7825b38d2beafcdb"
 metafile = true
 
 [[files]]
