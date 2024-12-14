@@ -673,6 +673,10 @@ file = "config/refurbished_furniture.server.toml.bak"
 hash = "fe5cd5a4a381f3176b8cf9ac9ea9c586c75441fcb100985ed831ad6f423249c2"
 
 [[files]]
+file = "config/sdrp-common.json"
+hash = "b765af2361a8e925fa7ae29556e34330040a362141872b9f4d89755cb8ade09f"
+
+[[files]]
 file = "config/sidebar_buttons.json"
 hash = "ce7365ee4adaa38d674b7bda5ac8f302a56b3851536dcfa0b2ad1777f68c02c4"
 
