@@ -33,7 +33,7 @@ scroll_list_customization {
 
 element {
   button_element_executable_block_identifier = b893ab83-3283-4a54-a203-d3b12110c53e-1719674842483
-  [executable_action_instance:da853371-49dc-4bea-8fe5-1fc8b9b7b6c0-1719937728522][action_type:joinserver] = br-ultra-4.enxadahost.com:10003
+  [executable_action_instance:da853371-49dc-4bea-8fe5-1fc8b9b7b6c0-1719937728522][action_type:joinserver] = br-9950x.redhosting.com.br:25652
   [executable_block:b893ab83-3283-4a54-a203-d3b12110c53e-1719674842483][type:generic] = [executables:da853371-49dc-4bea-8fe5-1fc8b9b7b6c0-1719937728522;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
