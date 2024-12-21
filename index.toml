@@ -1407,6 +1407,11 @@ hash = "02977d28acd2089c39dbe5b65fd08e78094fb650b4afc810f757cb5cea1fbda8"
 metafile = true
 
 [[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "e60b6bd62c31028a2555f06f5324004683d59d5dbee0697940075d9c89f7c6ea"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "90a70141bcec839b6a1aa647c91f97bb7b33b6b9e6ce6b3b18a4113aa7dff636"
 metafile = true
@@ -1444,6 +1449,11 @@ metafile = true
 [[files]]
 file = "mods/lukis-grand-capitals.pw.toml"
 hash = "4b67c06d2041eadb1ce4d504987cdbb37e5e7c63f2ef0a09debe434ae909eabb"
+metafile = true
+
+[[files]]
+file = "mods/macaws-holidays.pw.toml"
+hash = "c2b6ff731ec50589e048a1b424bed73d3d3498cc99b3588db6c224465bb82454"
 metafile = true
 
 [[files]]
