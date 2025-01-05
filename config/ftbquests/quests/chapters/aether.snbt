@@ -1,0 +1,651 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "58C520FF084BE885"
+	icon: "aether:aether_grass_block"
+	id: "0325B5600F0C24FA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"  Para construir o portal, você precisará de pelo menos 10 blocos de glowstone e um blade d'água para ativa-lo."
+				""
+				"  O portal do &bAether&r é construído da mesma forma que o do &cNether&r, só trocando os blocos e o item de ativação. Da mesma maneira, ele pode ser construído em uma escala maior."
+			]
+			icon: "aether:aether_portal_frame"
+			id: "3740101A71D481BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39AB992F8A768851"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Skypiea"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "38387DE9683B60D0"
+				title: "Aether"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3740101A71D481BB"]
+			description: [
+				"  A entrada para as dungeons de bronze podem ser encontradas nas laterais de ilhas normais. "
+				""
+				"{image:kubejs:textures/quests/bronzedungeon.png width:75 height:75 align:center}"
+				""
+				"  O boss da dungeon, &l&dSlider&r, é completamente &bimune ao dano de espadas&r, devendo ser eliminado utilizando uma &bpicareta&r."
+			]
+			id: "6FD944D58A024ECC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C4F5498A9A154FA"
+					table_id: 1360621381254826890L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "511A4AB26476F070"
+					table_id: 6535714654712916141L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "aether:bronze_dungeon"
+				criterion: ""
+				icon: "aether:bronze_dungeon_key"
+				id: "2C6907FF8F1D4BE2"
+				title: "Bronze Dungeon"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FD944D58A024ECC"]
+			description: [
+				"  As dungeons de prata se assemelham com um panteão (como aqueles templos romanos) e estão espalhadas pela dimensão, a mostra."
+				""
+				"{image:kubejs:textures/quests/silverdungeon.png width:75 height:75 align:center}"
+				""
+				"  Dentro, valquírias irão spawnar. Você precisa derrota-las até conseguir &b10 medalhas&r, para então poder desafiar a &l&dRainha&r delas, o boss da dungeon."
+			]
+			id: "25F4A71DDC35C6C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A3A0196C23440C6"
+					table_id: 1360621381254826890L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33F6C6023F861CFD"
+					table_id: 6535714654712916141L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "aether:silver_dungeon"
+				criterion: ""
+				icon: "aether:silver_dungeon_key"
+				id: "59B6DDB7E454296C"
+				title: "Silver Dungeon"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25F4A71DDC35C6C3"]
+			description: [
+				"  Por fim, as dungeons de ouro são encontradas no interior de ilhas com um formato mais esférico e com carvalhos dourados crescendo em seu topo."
+				""
+				"{image:kubejs:textures/quests/goldungeon.png width:100 height:100 align:center}"
+				""
+				"  O boss, &l&dEspírito do Sol&r, estará imune a princípio. Para ativar a sua luta, fique interagindo com ele repetidamente, até ele se irritar."
+				" "
+				"  Para matar esse boss, você precisa &brefletir os ataques de gelo em sua direção&r, o que o deixará &nvulnerável&r a dano por um &ncurto período de tempo&r."
+			]
+			id: "25D50704AF7C4842"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48F967BFA61270D7"
+					table_id: 1360621381254826890L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D22F4BA03B36133"
+					table_id: 1541069228600389254L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "aether:gold_dungeon"
+				criterion: ""
+				icon: "aether:gold_dungeon_key"
+				id: "2E9987B2737DD9A4"
+				title: "Gold Dungeon"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25F4A71DDC35C6C3"]
+			icon: {
+				Count: 1
+				id: "aether:valkyrie_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "362E59E480B654C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65D2C9EF2486E1BC"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2CD679369C8ADAE0"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64EE8F054AF50529"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49356E525905233C"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26EF3A00B0E0BF33"
+					item: {
+						Count: 1
+						id: "aether:valkyrie_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura das Valquirias"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25D50704AF7C4842"]
+			description: ["  &7Entrar na água com essa armadura irá transforma-la em obsidiana.&r"]
+			icon: {
+				Count: 1
+				id: "aether:phoenix_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "26B74A1C9FE3F1AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14A18488D73FA6E9"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "62949C57982241A4"
+					item: {
+						Count: 1
+						id: "aether:phoenix_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38A63910BB14C8D4"
+					item: {
+						Count: 1
+						id: "aether:phoenix_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0927FC8F24535C9E"
+					item: {
+						Count: 1
+						id: "aether:phoenix_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70C53E093AC4EE52"
+					item: {
+						Count: 1
+						id: "aether:phoenix_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura da Fênix"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3740101A71D481BB"]
+			icon: {
+				Count: 1
+				id: "aether:zanite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "176164F0EC50F6DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C25D304F216EEC7"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "4D8490B3E0F4EF7C"
+					item: {
+						Count: 1
+						id: "aether:zanite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DFCB45D9E757AA7"
+					item: {
+						Count: 1
+						id: "aether:zanite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FC33529DAF83917"
+					item: {
+						Count: 1
+						id: "aether:zanite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76341E7E009A3FE7"
+					item: {
+						Count: 1
+						id: "aether:zanite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura de Zanite"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EE2387A49ED03A8"]
+			icon: {
+				Count: 1
+				id: "aether:gravitite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D9355015A33C3C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D9ED3F77760FBFC"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "77D8CF4EF7838B52"
+					item: {
+						Count: 1
+						id: "aether:gravitite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CD0D3CFFD96D81F"
+					item: {
+						Count: 1
+						id: "aether:gravitite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57516615B7C12651"
+					item: {
+						Count: 1
+						id: "aether:gravitite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B8ACB1BF6A5241A"
+					item: {
+						Count: 1
+						id: "aether:gravitite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura de Gravitite"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EE2387A49ED03A8"]
+			id: "66B047AF95E61F2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26A36BA226435D95"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "569C1282DAD496BE"
+					item: {
+						Count: 1
+						id: "aether:gravitite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C948E5582A78EA8"
+					item: {
+						Count: 1
+						id: "aether:gravitite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BFC9FF04ED70312"
+					item: {
+						Count: 1
+						id: "aether:gravitite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FF646506DEE138F"
+					item: {
+						Count: 1
+						id: "aether:gravitite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49AA09862ECE1207"
+					item: {
+						Count: 1
+						id: "aether:gravitite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ferramentas de Gravitite"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3740101A71D481BB"]
+			id: "70EE30765B9BD09B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66BA0332239B3BA1"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "022754D3761EAE4B"
+					item: {
+						Count: 1
+						id: "aether:zanite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37D0F1E55C6D37F2"
+					item: {
+						Count: 1
+						id: "aether:zanite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "112428158B1113E2"
+					item: {
+						Count: 1
+						id: "aether:zanite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46766A22B1ED1075"
+					item: {
+						Count: 1
+						id: "aether:zanite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61A2F28617FAA752"
+					item: {
+						Count: 1
+						id: "aether:zanite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ferramentas de Zanite"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3740101A71D481BB"]
+			description: [
+				"  Algumas receitas do mod precisar ser feitas nesse altar. Ele funciona como uma fornalha, basicamente. "
+				""
+				"  Verifique no JEI quais itens podem ser utilizados para abastece-lo."
+			]
+			id: "0EE2387A49ED03A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "338C7C0F40D3EA76"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "aether:craft_altar"
+				criterion: ""
+				icon: "aether:altar"
+				id: "463CD1EF9D538E40"
+				title: "Altar"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3740101A71D481BB"]
+			description: ["  Consiga todos os discos de música do Aether."]
+			id: "49AC022B01D4AB0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6277F41085826EBF"
+				table_id: 6535714654712916141L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "502CBF70B3273EA0"
+					item: "aether:music_disc_chinchilla"
+					type: "item"
+				}
+				{
+					id: "74877CD0F4BF9025"
+					item: "aether:music_disc_high"
+					type: "item"
+				}
+				{
+					id: "524327CA051DF9DE"
+					item: "aether:music_disc_sliders_wrath"
+					type: "item"
+				}
+				{
+					id: "592988D4C2D55ED4"
+					item: "aether:music_disc_aether_tune"
+					type: "item"
+				}
+				{
+					id: "1AA97CF4B5A8E117"
+					item: "aether:music_disc_ascending_dawn"
+					type: "item"
+				}
+			]
+			title: "♪♪♪♪♪"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3740101A71D481BB"]
+			description: ["  Coloque uma sela em um porco alado e voe com ele."]
+			id: "6E5DF6286490B9C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12C943764AA83B67"
+				table_id: 8854221932444470647L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "aether:mount_phyg"
+				criterion: ""
+				id: "02331CC90CE86718"
+				title: "Quando porcos voarem"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3740101A71D481BB"]
+			id: "4DFCDDF80E38B768"
+			tasks: [{
+				advancement: "aether:incubate_moa"
+				criterion: ""
+				id: "6B055FC7979D7F74"
+				title: "Consiga uma Moa"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+	]
+	title: "&eAether"
+}

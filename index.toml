@@ -393,6 +393,10 @@ file = "config/ftbquests/quests/chapters/a.snbt"
 hash = "3ef8a03b8a704e2e6636884effcca46815be749f2978bd911f7a1db9f37eeed8"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/aether.snbt"
+hash = "9d34113f2373c5daf87308c6cc19bfa54fae72575695adb76c094de7ee837c0d"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
 hash = "3db9fc264ad967edb4580dc0085cebd0ea7e19b800e3c37e4a725d9f63cf63f0"
 
@@ -869,6 +873,10 @@ file = "kubejs/assets/kubejs/textures/quests/botania.png"
 hash = "5cbce3e9b3dcd6d0441c7f96fd878f43d49a4b3553cfba1376073c5f632d8246"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/quests/bronzedungeon.png"
+hash = "e3cb2faa96b7000cc494f50746cc69770c5dab28b02ceded1217332d17669404"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/quests/cataclysm.png"
 hash = "921f1136d40fa0ef854c710263454f2756315a256435e68c4aa8eb69378bc9e0"
 
@@ -889,8 +897,16 @@ file = "kubejs/assets/kubejs/textures/quests/end.png"
 hash = "09d759a8796797217a6c3527d94fd60f569b24ac0eb8c6ec4fba182a5dbe8cfb"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/quests/goldungeon.png"
+hash = "c59fd833fd646a9869dba66a0ad0ec6ebc0425e90f099078649cd8153cf1bdac"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/quests/irons.png"
 hash = "3853e18b9b8db5fe1f40248edfad788edec24e004eba085bbcc47cfb2bd66ae6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/quests/silverdungeon.png"
+hash = "7bf7bc70cc0044570c95750b7161978d5c364eb3556b1fdf8f45afac23b320b1"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/quests/storage.png"
