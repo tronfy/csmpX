@@ -978,6 +978,11 @@ hash = "e648a83707d4ddfedd27a6459c32853e4565f19eaa388246484857c053444930"
 metafile = true
 
 [[files]]
+file = "mods/aether.pw.toml"
+hash = "3fa99497f4c394f57de56e51f504f16109d899fe1fe38542641355e0793a2e37"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis.pw.toml"
 hash = "aeb6c7309052bb9bfb096ed6aef11cfab3c4bf3b0a44746b4e249bc0cca8120c"
 metafile = true
